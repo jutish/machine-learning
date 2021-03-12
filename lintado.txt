@@ -1,0 +1,3 @@
+Para correr el linter de python se usa el siguiente comando
+
+>> flake8 machine-learning
