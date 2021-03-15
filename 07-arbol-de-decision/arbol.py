@@ -302,7 +302,7 @@ for depth in depth_range:
     accuracies.append(avg)
 
 # En 4 niveles de splits tenemos el score más alto, con casi 65%.
-df = pd.DataFrame({'Max Depth':depth_range, 'Avg Accuracie': accuracies})
+df = pd.DataFrame({'Max Depth': depth_range, 'Avg Accuracie': accuracies})
 df = df[['Max Depth', 'Avg Accuracie']]
 print(df.to_string(index=False))
 
@@ -318,30 +318,51 @@ y_train = artists_encoded['top']
 
 # Crear arbol de decision con profundidad = 4
 decision_tree = tree.DecisionTreeClassifier(criterion='entropy',
-                                         min_samples_split=20,
-                                         min_samples_leaf=5,
-                                         max_depth=4,
-                                         class_weight={1: 3.5})
+                                            min_samples_split=20,
+                                            min_samples_leaf=5,
+                                            max_depth=4,
+                                            class_weight={1: 3.5})
 decision_tree.fit(X_train, y_train)
+tree.plot_tree(decision_tree,
+               max_depth=7,
+               impurity=True,
+               feature_names=list(artists_encoded.drop(['top'], axis=1)),
+               class_names=['No', 'N1 Billboard'],
+               filled=True
+               )
+# plt.show()
 
-# Exportar el modelo a archivo .dot
-with open('tree.dot', 'w') as f:
-    f = tree.export_graphviz(decision_tree,
-                             out_file=f,
-                             max_depth=7,
-                             impurity=True,
-                             feature_names=
-                                 list(artists_encoded.drop(['top'], axis=1)),
-                             class_names=['No', 'N1 Billboard'],
-                             rounded=True,
-                             filled=True)
-
-# Convertir el archivo .dot a .png para poder visualizarlo.
-# Nota: Falta instalar algo para poder renderizar tree.dot no tengo 
-# internet ahora.
-# check_call(['dot','-Tpng','tree1.dot','-o', 'tree.dot'])
-# PImage("tree1.png")
 # Veamos cuál fue la precisión alcanzada por nuestro árbol:
 acc_decision_tree = round(decision_tree.score(X_train, y_train) * 100, 2)
 print(acc_decision_tree)
 
+# Predicción de Canciones al Billboard 100
+# Vamos a testear nuestro árbol con 2 artistas que entraron al billboard
+# 100 en 2017: Camila Cabello que llegó al numero 1 con la Canción Havana y
+# Imagine Dragons con su canción Believer que alcanzó un puesto 42 pero
+# no llegó a la cima.
+
+# predecir artista CAMILA CABELLO featuring YOUNG THUG
+# predecir artista CAMILA CABELLO featuring YOUNG THUG
+# con su canción Havana llego a numero 1 Billboard US en 2017
+
+x_test = pd.DataFrame(columns=('top', 'moodEncoded', 'tempoEncoded',
+                               'genreEncoded', 'artist_typeEncoded',
+                               'edadEncoded', 'durationEncoded'))
+x_test.loc[0] = (1, 5, 2, 4, 1, 0, 3)
+y_pred = decision_tree.predict(x_test.drop(['top'], axis=1))
+print("Prediccion: " + str(y_pred))
+y_proba = decision_tree.predict_proba(x_test.drop(['top'], axis=1))
+print("Prob. de Acierto: " + str(round(y_proba[0][y_pred[0]]*100, 2))+"%")
+
+# predecir artista Imagine Dragons
+# con su canción Believer llego al puesto 42 Billboard US en 2017
+
+x_test = pd.DataFrame(columns=('top', 'moodEncoded', 'tempoEncoded',
+                               'genreEncoded', 'artist_typeEncoded',
+                               'edadEncoded', 'durationEncoded'))
+x_test.loc[0] = (0, 4, 2, 1, 3, 2, 3)
+y_pred = decision_tree.predict(x_test.drop(['top'], axis=1))
+print("Prediccion: " + str(y_pred))
+y_proba = decision_tree.predict_proba(x_test.drop(['top'], axis=1))
+print("Prob. de Acierto: " + str(round(y_proba[0][y_pred[0]] * 100, 2)) + "%")
