@@ -1,3 +1,9 @@
+# Articulo donse base el ejemplo:
+# https://www.aprendemachinelearning.com/
+#         arbol-de-decision-en-python-clasificacion-y-prediccion/
+# Buena Teoria sobre arboles de decision:
+# https://towardsdatascience.com/
+#        understanding-decision-trees-for-classification-python-9663d683c952
 # A partir de atributos de cantantes y de un histórico de canciones que
 # alcanzaron entrar al Billboard 100 (U.S.) en 2013 y 2014 crearemos un árbol
 # que nos permita intentar predecir si un nuevo cantante podrá llegar a
@@ -7,12 +13,7 @@ import pandas as pd
 import seaborn as sb
 import matplotlib.pyplot as plt
 from sklearn import tree
-from sklearn.metrics import accuracy_score
 from sklearn.model_selection import KFold
-from sklearn.model_selection import cross_val_score
-from IPython.display import Image as PImage  # Shell python con esteroides,
-from subprocess import check_call            # lo instale pip install ipython
-from PIL import Image, ImageDraw, ImageFont  # Permite manejar archivos
 plt.rcParams['figure.figsize'] = (16, 9)
 plt.style.use('ggplot')
 

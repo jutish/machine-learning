@@ -101,12 +101,12 @@ print(confusion_matrix(Y_validation, predictions))
 # M  [ 3  3  0]
 # L  [ 0  0 10]]
 
-# También podemos ver el reporte de clasificación con nuestro conjunto de Validación. 
-# En nuestro caso vemos que se utilizaron como “soporte” 18 registros windows, 
+# También podemos ver el reporte de clasificación con nuestro conjunto de Validación.
+# En nuestro caso vemos que se utilizaron como “soporte” 18 registros windows,
 # 6 de mac y 10 de Linux (total de 34 registros). Podemos ver la precisión con que se
-# acertaron cada una de las clases y vemos que por ejemplo de Macintosh tuvo 3 aciertos y 
-# 3 fallos (0.5 recall). La valoración que de aqui nos conviene tener en cuenta es la de 
-# F1-score, que tiene en cuenta la precisión y recall. El promedio de F1 es de 84% lo cual 
+# acertaron cada una de las clases y vemos que por ejemplo de Macintosh tuvo 3 aciertos y
+# 3 fallos (0.5 recall). La valoración que de aqui nos conviene tener en cuenta es la de
+# F1-score, que tiene en cuenta la precisión y recall. El promedio de F1 es de 84% lo cual
 # no está nada mal.
 print(classification_report(Y_validation, predictions))
 
