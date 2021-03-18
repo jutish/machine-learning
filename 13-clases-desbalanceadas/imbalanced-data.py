@@ -4,16 +4,13 @@
 # pip install -U imbalanced-learn
 
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sb
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import classification_report
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
-from sklearn.decomposition import PCA
 from sklearn.tree import DecisionTreeClassifier
-from pylab import rcParams
 from imblearn.under_sampling import NearMiss
 from imblearn.over_sampling import RandomOverSampler
 from imblearn.combine import SMOTETomek
@@ -21,6 +18,7 @@ from imblearn.ensemble import BalancedBaggingClassifier
 from collections import Counter
 
 LABELS = ['Normal', 'Fraud']
+
 df = pd.read_csv('creditcard.csv')
 print(df.head())
 
@@ -69,6 +67,7 @@ def run_model(X_train, X_test, y_train, y_test):
     clf_base.fit(X_train, y_train)
     return clf_base
 
+
 # Ejecutamos el modelo tal cual
 model = run_model(X_train, X_test, y_train, y_test)
 
@@ -85,6 +84,7 @@ def mostrar_resultados(y_test, y_pred, estrategia=''):
     plt.ylabel('True Class')
     plt.xlabel('Predicted Class')
     plt.show()
+
 
 # Aqui vemos la confusion matrix y en la clase 2 (es lo que nos interesa
 # detectar) vemos 51 fallos y 97 aciertos dando un recall de 0.66 y es el
@@ -152,7 +152,7 @@ y_pred = model.predict(X_test)
 mostrar_resultados(y_test, y_pred, 'Smote-Tomek')
 
 # Estrategia: Ensamble de Modelos con Balanceo
-# Para esta estrategia usaremos un Clasificador de Ensamble 
+# Para esta estrategia usaremos un Clasificador de Ensamble
 # que usa Bagging y el modelo será un DecisionTree. Veamos como se comporta:
 bbc = BalancedBaggingClassifier(base_estimator=DecisionTreeClassifier(),
                                 sampling_strategy='auto',
