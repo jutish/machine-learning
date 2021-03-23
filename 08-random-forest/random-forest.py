@@ -63,3 +63,9 @@ plt.title('Confusion Matrix')
 plt.ylabel('True Class')
 plt.xlabel('Predicted Class')
 plt.show()
+
+# Los algoritmos Tree-Based -en inglés- son muchos, todos parten de la idea principal
+# de árbol de decisión y la mejoran con diferentes tipos de ensambles y técnicas.Tenemos
+# que destacar a 2 modelos que según el caso logran superar a las mismísimas redes neuronales!
+# son XGboost y LightGBM. Si te parecen interesantes puede que en el futuro escribamos
+# sobre ellos.
