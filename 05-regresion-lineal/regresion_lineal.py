@@ -1,3 +1,5 @@
+# https://www.aprendemachinelearning.com/regresion-lineal-en-espanol-con-python/
+
 # Predecir cuántas veces será compartido un artículo de Machine Learning.
 # Regresión lineal simple en Python (con 1 variable)
 import numpy as np # soporte para crear vectores y matrices grandes multidimensionales, junto con una gran colección de funciones matemáticas de alto nivel 

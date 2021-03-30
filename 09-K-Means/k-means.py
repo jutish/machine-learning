@@ -1,3 +1,5 @@
+# https://www.aprendemachinelearning.com/k-means-en-python-paso-a-paso/
+
 # K-Means es un algoritmo no supervisado de Clustering. Se utiliza cuando
 # tenemos un montón de datos sin etiquetar. El objetivo de este algoritmo
 # es el de encontrar “K” grupos (clusters) entre los datos crudos.

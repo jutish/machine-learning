@@ -1,3 +1,5 @@
+# https://www.aprendemachinelearning.com/regresion-logistica-con-python-paso-a-paso/
+
 # Para nuestro ejercicio he creado un archivo csv con datos de entrada a modo de 
 # ejemplo para clasificar si el usuario que visita un sitio web usa como 
 # sistema operativo Windows, Macintosh o Linux.

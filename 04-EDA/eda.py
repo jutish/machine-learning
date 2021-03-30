@@ -1,3 +1,5 @@
+# https://www.aprendemachinelearning.com/analisis-exploratorio-de-datos-pandas-python/
+
 # Un EDA de pocos minutos con Pandas (Python)
 # Vamos a hacer un ejemplo en pandas de un EDA bastante sencillo pero con
 # fines educativos.

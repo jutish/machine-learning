@@ -1,3 +1,4 @@
+# https://www.aprendemachinelearning.com/deteccion-de-outliers-en-python-anomalia/
 import matplotlib.pyplot as plt
 import numpy as np
 from math import pi

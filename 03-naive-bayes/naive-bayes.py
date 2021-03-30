@@ -1,3 +1,5 @@
+# https://www.aprendemachinelearning.com/comprar-casa-o-alquilar-naive-bayes-usando-python/
+
 """
 Hoy veremos un nuevo ejercicio práctico,
 intentando llevar los algoritmos de Machine Learning a
@@ -5,9 +7,6 @@ ejemplos claros y de la vida real,
 repasaremos la teoría del Teorema de Bayes (video) de estadística
 para poder tomar una decisión muy importante: ¿me conviene comprar casa ó
 alquilar?
-
-https://www.aprendemachinelearning.com/
-        comprar-casa-o-alquilar-naive-bayes-usando-python/
 """
 
 # Importemos las librerías que usaremos y visualicemos la información que

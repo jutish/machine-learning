@@ -1,3 +1,5 @@
+# https://www.aprendemachinelearning.com/sistemas-de-recomendacion/
+
 # User-based collobaritive filtering
 # Agrupa a los usuarios en base a tener gustos similares, es decir como han
 # clasificado n-productos. Luego ofrecen a otro usuario con gusto similar
