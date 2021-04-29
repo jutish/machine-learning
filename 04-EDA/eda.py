@@ -30,6 +30,7 @@ print(df.info())
 # descripción estadística de los datos numéricos
 print(df.describe())
 
+
 # Verifiquemos si hay correlación entre los datos
 corr = df.set_index('alpha_3').corr()
 # Ploteamos usando statsmodel.api
