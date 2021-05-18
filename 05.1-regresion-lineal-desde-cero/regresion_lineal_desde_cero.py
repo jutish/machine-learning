@@ -41,7 +41,7 @@ print(f'y = w0 + w1*x1 => y = {W[0]} + {W[1]}*x1')
 plt.plot([4,9], [W[0]+W[1]*4, W[0]+W[1]*9], color='red')
 plt.show()
 
-#Todo esteban.. se me ocurrio obtener el error cuadratico medio  (Y-XW).T (Y-XW)
+#Se me ocurrio obtener el error cuadratico medio  (Y-XW).T (Y-XW)
 error = (Y-X@W).T @ (Y-X@W)
 print('Error cuadratico medio: ',error)
 
