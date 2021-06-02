@@ -21,8 +21,8 @@ print(data.head())
 print(data.info())
 print(data.describe())
 
-# Intentaremos ver con nuestra relación lineal, si hay una correlación 
-# entre la cantidad de palabras del texto y la cantidad de Shares obtenidos.
+# # Intentaremos ver con nuestra relación lineal, si hay una correlación 
+# # entre la cantidad de palabras del texto y la cantidad de Shares obtenidos.
 
 #Visualizamos las caracteristicas de los datos de entrada
 data.drop(['Title', 'url', 'Elapsed days'], 1).hist()
@@ -146,12 +146,6 @@ print('Variance score: %.2f' % r2_score(z_train, z_pred))
 
 fig = plt.figure()
 ax = Axes3D(fig)
-
-# Creamos una malla, sobre la cual graficaremos el plano
-xx, yy = np.meshgrid(np.linspace(0, 3500, num = 10), np.linspace(0, 60, num = 10))
-
-fig = plt.figure()
-ax = Axes3D(fig)
  
 # Creamos una malla, sobre la cual graficaremos el plano
 xx, yy = np.meshgrid(np.linspace(0, 3500, num=10), np.linspace(0, 60, num=10))
@@ -169,7 +163,7 @@ ax.plot_surface(xx, yy, z, alpha=0.2, cmap='hot')
 # Graficamos en azul los puntos en 3D
 ax.scatter(XY_train[:, 0], XY_train[:, 1], z_train, c='blue',s=30)
  
-# Graficamos en rojo, los puntos que 
+# Graficamos en rojo, los puntos que se han predicho
 ax.scatter(XY_train[:, 0], XY_train[:, 1], z_pred, c='red',s=40)
  
 # con esto situamos la "camara" con la que visualizamos

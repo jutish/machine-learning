@@ -31,10 +31,12 @@ plt.scatter(X, Y, alpha=0.3)  #Alpha es la transp. permite ver concentracion
 # Agregamos a X una columna de 1(unos) para representar el termino indep.
 X = np.array([np.ones(len(X)),X]).T
 print(X.shape)
+
 # Obtenemos las pendientes o valor de la matriz W segun la formula 
 # W = (X.T X)^-1 X.T, tambien se suele llamar Beta al error (B)
 W = np.linalg.inv(X.T @ X) @ X.T @ Y
 print(f'y = w0 + w1*x1 => y = {W[0]} + {W[1]}*x1')
+
 # Graficamos la linea basados en y = w0 + w1*x1
 # Usamos dos puntos de X en este caso 4 y 9 luego la salida Y queda dada
 # por la formula de la recta
