@@ -8,9 +8,19 @@ n = 500  # Nro de registros/observaciones tenemos en nuestro dataset
 p = 2  # Cuantas caracteristicas/parametros tiene cada registro
 X, Y = make_circles(n_samples=n, factor=0.5, noise=0.05)
 Y = np.array([Y]).T # Llevo la dimension de Y a (500,1) antes era (500,)
+
+#Imprimo el dataset del problema en 2d
 plt.scatter(X[Y[:,0] == 0, 0], X[Y[:,0] == 0, 1], c='skyblue')
 plt.scatter(X[Y[:,0] == 1, 0], X[Y[:,0] == 1, 1], c='salmon')
 plt.axis('equal')
+plt.show()
+
+# Imprimo el dataset del problema en 3d
+fig = plt.figure()
+ax = fig.add_subplot(projection='3d')
+ax.scatter(X[Y[:,0] == 0, 0], X[Y[:,0] == 0, 1],Y[Y[:,0] == 0], c='skyblue')
+ax.scatter(X[Y[:,0] == 1, 0], X[Y[:,0] == 1, 1],Y[Y[:,0] == 1], c='salmon')
+# ax.scatter(X[:,0],X[:,1],Y[:,0])
 plt.show()
 
 
@@ -25,17 +35,17 @@ class NeuralLayer():
 sigm = (lambda x: 1 / (1 + np.e ** (-x)),  # sigm[0] => Funcion Sigmoide
         lambda x: x * (1 - x))  # sigm[1] => Derivada funcion Sigmoide
 
+# Defino la funcion de coste
+l2Cost = (lambda Yp, Yr: np.mean((Yp - Yr) ** 2),
+          lambda Yp, Yr: (Yp - Yr))
+
+
 def createNN(topology, actFunction):
     nn = []  # Contiene cada una de las capas ocultas que forman la red.
     for l, layer in enumerate(topology[:-1]):
         nn.append(NeuralLayer(topology[l], topology[l + 1], actFunction))
     return nn
 
-# Creo la red neuronal
-topology = [2, 3, 2 ,1]  # Defino el numero de neuronas por capa
-neuralNet = createNN(topology, sigm)
-l2Cost = (lambda Yp, Yr: np.mean((Yp - Yr) ** 2),
-          lambda Yp, Yr: (Yp - Yr))
 
 def train(neuralNet, X, Y, l2Cost, lr=0.5, train=True):
     # Forward pass
@@ -65,12 +75,11 @@ def train(neuralNet, X, Y, l2Cost, lr=0.5, train=True):
             neuralNet[l].W = neuralNet[l].W - out[l][1].T @ deltas[0] * lr
     return out[-1][1]  # Retorno la prediccion
 
+
 #  Hasta aca la red neuronal ahora la llamo y ploteo
 
-import time
-from IPython.display import clear_output
 # Creo la red neuronal
-iteraciones = 1000
+iteraciones = 2000
 topology = [p, 4, 8 ,1]  # Defino el numero de neuronas por capa
 neuralNet = createNN(topology, sigm)
 loss = []
@@ -80,24 +89,30 @@ _x0 = np.linspace(-1.5, 1.5, res)
 _x1 = np.linspace(-1.5, 1.5, res)
 _Y = np.zeros((res, res))
 for i in range(iteraciones):
-    Yp = train(neuralNet, X, Y, l2Cost, lr=0.001, train=True)
+    Yp = train(neuralNet, X, Y, l2Cost, lr=0.05, train=True)
     if i % 25 == 0:
         loss.append(l2Cost[0](Yp, Y))
-        # for i0, x0 in enumerate(_x0):
-        #     for i1, x1 in enumerate(_x1):
-        #         _Y[i0, i1] = train(neuralNet, np.array([[x0, x1]]), Y, l2Cost, train=False)[0][0]
+        for i0, x0 in enumerate(_x0):
+            for i1, x1 in enumerate(_x1):
+                _Y[i0, i1] = train(neuralNet, np.array([[x0, x1]]), Y, l2Cost, train=False)[0][0]
         
-        # plt.pcolormesh(_x0, _x1, _Y, cmap='coolwarm')
-        # plt.axis('equal')
 
-        # plt.scatter(X[Y[:,0] == 0, 0], X[Y[:,0] == 0, 1], c='skyblue')
-        # plt.scatter(X[Y[:,0] == 1, 0], X[Y[:,0] == 1, 1], c='salmon')
+plt.pcolormesh(_x0, _x1, _Y, cmap='coolwarm', shading='auto')
+plt.scatter(X[Y[:,0] == 0, 0], X[Y[:,0] == 0, 1], c='skyblue')
+plt.scatter(X[Y[:,0] == 1, 0], X[Y[:,0] == 1, 1], c='salmon')
+plt.axis('equal')
+plt.show()
 
-        # clear_output(wait=True)
-        # plt.show()
-        # plt.plot(range(len(loss)), loss)
-        # plt.show()
-        # time.sleep(0.5)
 
-print(loss)
+# Impresion 3d de la solucion
+from matplotlib import cm
+fig, ax = plt.subplots(subplot_kw={"projection": "3d"})
+x0, x1 = np.meshgrid(_x0, _x1)
+surf = ax.plot_surface(x0, x1, _Y, cmap=cm.coolwarm,
+                       linewidth=0, antialiased=False)
+plt.show()
 
+# Imprimo la evolucion del aprendizaje basado en el error devuelto por las predicciones
+plt.plot(range(len(loss)), loss)
+plt.show()
+# print(loss)

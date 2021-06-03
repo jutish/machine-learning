@@ -14,10 +14,20 @@ p = 2  # Cuantas caracteristicas/parametros tiene cada registro
 # Y Dice a que clase/circulo (1, 0) pertenece cada punto
 X, Y = make_circles(n_samples=n, factor=0.5, noise=0.05)
 Y = np.array([Y]).T # Llevo la dimension de Y a (500,1) antes era (500,)
-# plt.scatter(X[Y[:,0] == 0, 0], X[Y[:,0] == 0, 1], c='skyblue')
-# plt.scatter(X[Y[:,0] == 1, 0], X[Y[:,0] == 1, 1], c='salmon')
-# plt.axis('equal')
-# plt.show()
+
+#Imprimo el dataset del problema en 2d
+plt.scatter(X[Y[:,0] == 0, 0], X[Y[:,0] == 0, 1], c='skyblue')
+plt.scatter(X[Y[:,0] == 1, 0], X[Y[:,0] == 1, 1], c='salmon')
+plt.axis('equal')
+plt.show()
+
+# Imprimo el dataset del problema en 3d
+fig = plt.figure()
+ax = fig.add_subplot(projection='3d')
+ax.scatter(X[Y[:,0] == 0, 0], X[Y[:,0] == 0, 1],Y[Y[:,0] == 0], c='skyblue')
+ax.scatter(X[Y[:,0] == 1, 0], X[Y[:,0] == 1, 1],Y[Y[:,0] == 1], c='salmon')
+# ax.scatter(X[:,0],X[:,1],Y[:,0])
+plt.show()
 
 
 # Clase de la capa de la red
@@ -139,8 +149,8 @@ def train(neuralNet, X, Y, l2Cost, lr=0.5, train=True):
 import time
 from IPython.display import clear_output
 # Creo la red neuronal
-iteraciones = 1000
-topology = [p, 4, 8 ,1]  # Defino el numero de neuronas por capa
+iteraciones = 2000
+topology = [p, 5, 8, 1]  # Defino el numero de neuronas por capa
 neuralNet = createNN(topology, sigm)
 loss = []
 
@@ -156,15 +166,24 @@ for i in range(iteraciones):
             for i1, x1 in enumerate(_x1):
                 _Y[i0, i1] = train(neuralNet, np.array([[x0, x1]]), Y, l2Cost, train=False)[0][0]
         
-        # print(len(loss), loss)
-        plt.scatter(X[Y[:,0] == 0, 0], X[Y[:,0] == 0, 1], c='skyblue')
-        plt.scatter(X[Y[:,0] == 1, 0], X[Y[:,0] == 1, 1], c='salmon')
-        plt.pcolormesh(_x0, _x1, _Y, cmap='coolwarm', shading='auto')
-        plt.axis('equal')
-        plt.show()
-        time.sleep(0.5)
-        plt.close()
 
-# plt.plot(range(len(loss)), loss)
-# plt.show()
+
+plt.pcolormesh(_x0, _x1, _Y, cmap='coolwarm', shading='auto')
+plt.scatter(X[Y[:,0] == 0, 0], X[Y[:,0] == 0, 1], c='skyblue')
+plt.scatter(X[Y[:,0] == 1, 0], X[Y[:,0] == 1, 1], c='salmon')
+plt.axis('equal')
+plt.show()
+
+
+# Impresion 3d de la solucion
+from matplotlib import cm
+fig, ax = plt.subplots(subplot_kw={"projection": "3d"})
+x0, x1 = np.meshgrid(_x0, _x1)
+surf = ax.plot_surface(x0, x1, _Y, cmap=cm.coolwarm,
+                       linewidth=0, antialiased=False)
+plt.show()
+
+# Imprimo la evolucion del aprendizaje basado en el error devuelto por las predicciones
+plt.plot(range(len(loss)), loss)
+plt.show()
 # print(loss)
