@@ -58,7 +58,7 @@ plt.plot(theta[0], theta[1], 'o', c='red')  # El punto de partida en rojo
 # sino que uso el concepto de derivada parcial, que es ver el valor de la
 # salida para un pequeño incremento en la entrada y comparar con el valor sin
 # el incremento para luego si saber para donde ir. Podria haber obtenido la
-# derivada de la funcion usando alguna libraria y luego si evaluarlo en X e Y
+# derivada de la funcion usando alguna libreria y luego si evaluarlo en X e Y
 # pero en el video lo hace de esta forma y me parece bien.
 h = 0.001
 
