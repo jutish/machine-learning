@@ -1,3 +1,8 @@
+# Que hacer con las columnas que tienen valores nulos
+# Eliminar la columna, hay casos donde funciona
+# Completar la columna con el promedio de la misma "Imputation"
+# Completar la columna con el promedio de la misma y agregar al dataset
+# otra columna indicando donde se completaron los datos faltantes.
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error
@@ -25,7 +30,7 @@ def score_dataset(X_train, X_valid, y_train, y_valid):
                                                 random_state=0)
     random_forest_model.fit(X_train, y_train)
     random_forest_predict = random_forest_model.predict(X_valid)
-    mae = mean_absolute_error(random_forest_predict, y_valid)
+    mae = mean_absolute_error(y_valid, random_forest_predict)
     return mae
 
 # Approach 1 - Drop columns with missing values
