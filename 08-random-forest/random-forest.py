@@ -7,6 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import classification_report
+from sklearn.metrics import mean_absolute_error
 
 # Cómo funciona Random Forest?
 # Random Forest funciona así:
@@ -22,7 +23,7 @@ from sklearn.metrics import classification_report
 # clasificación final de nuestro “bosque”.
 
 # Load csv
-df = pd.read_csv('../13-clases-desbalanceadas/creditcard.csv')
+df = pd.read_csv('../12-clases-desbalanceadas/creditcard.csv')
 
 # Split into train and test
 X = df.drop(['Class'], axis=1)
@@ -53,6 +54,10 @@ model = RandomForestClassifier(n_estimators=100,
 # A entrenar
 model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
+
+# Medimos el error seguna aprendi en kaggle
+mae = mean_absolute_error(y_pred, y_test)
+print('Mean Absolute Error: ', round(mae,2))
 
 # Mostramos la confusion matrix
 print(classification_report(y_test, y_pred))
