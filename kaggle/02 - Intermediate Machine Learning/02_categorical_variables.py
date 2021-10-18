@@ -76,6 +76,7 @@ print(score_dataset(label_X_train, label_X_valid, y_train, y_valid))
 # Score from Approach 3 (One-Hot Encoding)
 # We use the OneHotEncoder class from scikit-learn to get one-hot encodings.
 # There are a number of parameters that can be used to customize its behavior.
+# Note: There is a function called "df.get_dummies()" which do the same.
 
 # We set handle_unknown='ignore' to avoid errors when the validation data contains
 # classes that aren't represented in the training data, and
