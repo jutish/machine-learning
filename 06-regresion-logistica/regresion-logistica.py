@@ -71,7 +71,8 @@ print(model.score(X,y))
 # utilizando 80% de registros para entrenamiento y 20% para validar.
 validation_size = 0.20
 seed = 7
-X_train, X_validation, Y_train, Y_validation = model_selection.train_test_split(X, y, test_size = validation_size, random_state = seed)
+X_train, X_validation, Y_train, Y_validation = model_selection.
+train_test_split(X, y, test_size = validation_size, random_state = seed)
 
 # Volvemos a compilar nuestro modelo de Regresión Logística pero esta vez sólo con 80% 
 # de los datos de entrada y calculamos el nuevo scoring que ahora nos da 74%.

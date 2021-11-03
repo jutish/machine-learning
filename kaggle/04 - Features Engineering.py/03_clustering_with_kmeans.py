@@ -86,16 +86,16 @@ X['Cluster'] = X['Cluster'].astype('category')
 # scatter plot that shows the geographic distribution of the clusters. It seems
 # like the algorithm has created separate segments for higher-income areas on
 # the coasts.
-# sns.relplot(x='longitude', y='latitude', hue='Cluster', data=X)
-# plt.show()
+sns.relplot(x='longitude', y='latitude', hue='Cluster', data=X)
+plt.show()
 
 # The target in this dataset is MedHouseVal (median house value). These
 # box-plots show the distribution of the target within each cluster. If the
 # clustering is informative, these distributions should, for the most part,
 # separate across MedHouseVal, which is indeed what we see.
 
-# sns.catplot(x='median_house_value', y='Cluster', data=pd.concat([X,df['median_house_value']],axis=1), kind='boxen')
-# plt.show()
+sns.catplot(x='median_house_value', y='Cluster', data=pd.concat([X,df['median_house_value']],axis=1), kind='boxen')
+plt.show()
 
 # # Score without cluster
 X_without_score = X.drop(['Cluster'], axis=1).copy()
