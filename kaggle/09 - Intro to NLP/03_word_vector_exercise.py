@@ -11,7 +11,7 @@ from sklearn.linear_model import PassiveAggressiveClassifier
 # Here are all the available models: https://spacy.io/models/en#en_core_web_lg
 nlp = spacy.load('en_core_web_lg')
 review_data = pd.read_csv('yelp_ratings.csv')
-print(review_data.head())
+print(review_data.dtypes)
 
 # Here's an example of loading some document vectors.
 # Calculating 44,500 document vectors takes about 20 minutes, so we'll get only
