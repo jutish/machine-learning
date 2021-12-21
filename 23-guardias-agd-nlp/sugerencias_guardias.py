@@ -31,8 +31,8 @@ def cosine_similarity(a, b):
     return np.dot(a, b)/np.sqrt(a.dot(a)*b.dot(b))
 
 # Problem
-problem = """Llaman de porteria PAG indicando que tienen una diferencia de 45.000 kilos
-con respecto a alejandro roca. Indican que el peso de origen no fue encontrado"""
+problem = "En chazon no funciona el pasaje de datos de playa a acopios llamo\
+llamo david artez"
 
 # Vectorize the problem
 problem_vec = nlp(problem).vector
@@ -52,8 +52,8 @@ sims = np.array([cosine_similarity((problem_vec - vec_mean), centered) for cente
 sorted_indexes = sims.argsort()
 
 # 
-sol_qty = 5
+sol_qty = 10
 solutions_indexes = sorted_indexes[: -(sol_qty+1) : -1]
-solutions = data.iloc[solutions_indexes]['Solución']
+solutions = data.iloc[solutions_indexes][['Problema','Solución']]
 solutions.to_excel('Solucion.xlsx')
 

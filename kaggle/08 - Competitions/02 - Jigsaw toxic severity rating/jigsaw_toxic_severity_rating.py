@@ -3,8 +3,9 @@ import numpy as np
 import spacy
 import praw
 import os
-from sklearn.svm import LinearSVC
+from xgboost import XGBRegressor
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_absolute_error
 
 # Load or make a ruddit comments score
 if os.path.isfile('ruddit_comments_score.csv'):
@@ -107,8 +108,39 @@ def predict(validation_data):
 # Second Approach Training a model based on Ruddit Comments Score#
 ##################################################################
 
-
+# Split our dataset based on Ruddits dataset vecotirized
 X_train, X_test, y_train, y_test = train_test_split(df_vectors, df.score,
     test_size=0.1, random_state=1)
 
-print(X_train.shape, X_test.shape, y_train.shape, y_test.shape)
+# # # Using XGBoost
+# my_model = XGBRegressor(n_estimators = 1000, learning_rate=0.05, random_state=0)
+# my_model.fit(X_train, y_train, early_stopping_rounds=5,
+#              eval_set=[(X_test, y_test)], verbose=False)
+# predictions = my_model.predict(X_test)
+# mae = mean_absolute_error(predictions, y_test)
+# print('Mean Absolute Error: ', mae)
+
+my_model = XGBRegressor(random_state=0)
+my_model.fit(X_train, y_train)
+print(X_train.shape)
+
+def model_score_pairs(comments):
+    less_toxic = comments[0]
+    more_toxic = comments[1]
+    less_vector = nlp(less_toxic).vector.reshape(1,300)
+    more_vector = nlp(more_toxic).vector.reshape(1,300)
+    less_score = my_model.predict(less_vector)
+    more_score = my_model.predict(more_vector)
+    return pd.Series([less_score, more_score])
+    # return pd.Series([1,2])
+
+def model_predict(validation_data):
+    test_df = validation_data[['less_toxic','more_toxic']]
+    result = test_df.apply(model_score_pairs, raw=True, axis=1)
+    result['value'] = result['less_toxic'] < result['more_toxic']
+    # print(result)
+    return result.value.mean()
+
+val_data_test = validation_data.iloc[:]
+mean_score = model_predict(val_data_test)
+print(mean_score)
