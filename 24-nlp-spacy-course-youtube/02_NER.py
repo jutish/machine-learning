@@ -42,17 +42,13 @@ with open('./sources/hp_characters.json','r') as f:
 
 # Clean data
 for segment in text:
-    print(segment)
     segment = segment.strip()
     segment = segment.replace('\n',' ')
-    print(segment)
     punc = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
     for letter in segment:  # iterate letter by letter.
         if letter in punc:
             segment = segment.replace(letter, "")
-    print(segment)
     words = segment.split()
-    print(words)
     i = 0
     for word in words:
         if word in character_names:

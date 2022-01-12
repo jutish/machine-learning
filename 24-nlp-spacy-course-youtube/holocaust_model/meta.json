@@ -1,0 +1,39 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.2.0,<3.3.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"0fc3dee77",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "camps_entity_ruler":[
+      "CONC_CAMP"
+    ],
+    "ner_conc_camp":[
+      "CAMP",
+      "CONC_CAMP"
+    ]
+  },
+  "pipeline":[
+    "ner_conc_camp",
+    "camps_entity_ruler"
+  ],
+  "components":[
+    "ner_conc_camp",
+    "camps_entity_ruler"
+  ],
+  "disabled":[
+
+  ]
+}

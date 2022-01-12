@@ -1,0 +1,2263 @@
+[
+    [
+        "Breitenau concentration camp was one of the first concentration camps established by the Nazis. It was founded in June 1933 as an addition to the Breitenau Labor and Welfare House, less than six months after the Nazis had seized power in Germany. It closed in March 1934 and reopened in 1940 where it remained in operation until the end of World War II. In 1984, a memorial was constructed on the site of the former camp.",
+        {
+            "entities": [
+                [
+                    0,
+                    9,
+                    "CONC_CAMP"
+                ],
+                [
+                    146,
+                    155,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "History In 1133, Benedictines founded a monastery at Breitenau. Philip I, Landgrave of Hesse converted the monastery to an estate in 1527. By 1579, it became a horse stable and warehouse for agricultural products. Between the early 17th and late 19th centuries, it mostly served as a country residence.",
+        {
+            "entities": [
+                [
+                    53,
+                    62,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Breitenau Memorial In 1984, a memorial was established in memory of those who were detained, enslaved, and murdered at the Breitenau concentration camp. It was built in a tithe barn that has been dated to the 15th century when it belonged to the original monastery. Compensation became available to survivors of the Breitenau concentration camp in 2000 with the memorial helping them apply for compensation.",
+        {
+            "entities": [
+                [
+                    0,
+                    9,
+                    "CONC_CAMP"
+                ],
+                [
+                    123,
+                    132,
+                    "CONC_CAMP"
+                ],
+                [
+                    316,
+                    325,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Breslau-D\u00fcrrgoy concentration camp From Wikipedia, the free encyclopedia Jump to navigationJump to search Breslau-D\u00fcrrgoy concentration camp Concentration camp Esterwegen Pictured KZ Esterwegen where prisoners of KZ D\u00fcrrgoy have been transferred in 1933 Wroc\u0142aw Tarnogaj.png D\u00fcrrgoy  D\u00fcrrgoy  The location of the old D\u00fcrrgoy neighbourhood  on the modern-day map of Wroc\u0142aw Known for\tImprisonment, forced labor Location\tWroc\u0142aw,  Breslau-D\u00fcrrgoy concentration camp or KZ D\u00fcrrgoy was a short-lived Nazi German concentration camp set up in the southern part of Wroc\u0142aw , then in Germany, before World War II on the grounds of the old fertilizer factory \"Silesia\". It was located in what, since 1945, has become known as the Tarnogaj neighbourhood of Wroc\u0142aw , at the Strehlener Chaussee or Strzeli\u0144ski Street , opposite the cemetery of the Holy Ghost. The camp, intended for the opponents of Nazism, was established at a place of the former POW camp for French prisoners of World War I, converted and utilized by the fertilizer factory. The new camp was founded on the initiative of the commander of SA in Silesia, SA-Obergruppenf\u00fchrer Edmund Heines, on 12 March 1933, and liquidated on 10 August 1933 with all prisoners transported to a larger concentration camp at Osnabr\u00fcck.",
+        {
+            "entities": [
+                [
+                    0,
+                    15,
+                    "CONC_CAMP"
+                ],
+                [
+                    106,
+                    121,
+                    "CONC_CAMP"
+                ],
+                [
+                    160,
+                    170,
+                    "CONC_CAMP"
+                ],
+                [
+                    183,
+                    193,
+                    "CONC_CAMP"
+                ],
+                [
+                    429,
+                    444,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "KZ D\u00fcrrgoy closed on 10 August 1933, and the last 343 prisoners were transported by train to a special camp Esterwegen, located near Osnabr\u00fcck. The barracks which remained in the camp furnished shelter for the homeless.",
+        {
+            "entities": [
+                [
+                    108,
+                    118,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Esterwegen concentration camp near Esterwegen was an early Nazi concentration camp within a series of camps first established in the Emsland district of Germany. It was established in the summer of 1933 as a concentration camp for 2000 so-called political Schutzh\u00e4ftlinge  and was for a time the second largest concentration camp after Dachau. The camp was closed in summer of 1936. Thereafter, until 1945 it was used as a prison camp. Political prisoners and so-called Nacht und Nebel prisoners were also held there. After the war ended, Esterwegen served as a British internment camp, as a prison, and, until 2000, as a depot for the German Army.",
+        {
+            "entities": [
+                [
+                    4,
+                    14,
+                    "CONC_CAMP"
+                ],
+                [
+                    39,
+                    49,
+                    "CONC_CAMP"
+                ],
+                [
+                    340,
+                    346,
+                    "CONC_CAMP"
+                ],
+                [
+                    543,
+                    553,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "The most famous prisoner was writer and editor of the weekly magazine, Die Weltb\u00fchne, Carl von Ossietzky, who won the Nobel Peace Prize in 1935. Comedian Werner Finck was detained in Esterwegen for six weeks.",
+        {
+            "entities": [
+                [
+                    183,
+                    193,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "SS-Hauptscharf\u00fchrer Gustav Sorge, nicknamed \"The Iron Gustav\" for his brutality, was a guard at Esterwegen prior to being assigned to Sachsenhausen. He was convicted of war crimes after the war.",
+        {
+            "entities": [
+                [
+                    96,
+                    106,
+                    "CONC_CAMP"
+                ],
+                [
+                    134,
+                    147,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Kemna concentration camp  was one of the early Nazi concentration camps, created by the Third Reich to incarcerate their political opponents  after the Nazi Party first seized power in 1933. The camp was established in a former factory on the Wupper river in the Kemna neighborhood of the Barmen quarter of Wuppertal. It was run by the SA group in D\u00fcsseldorf.",
+        {
+            "entities": [
+                [
+                    0,
+                    5,
+                    "CONC_CAMP"
+                ],
+                [
+                    263,
+                    268,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "The purpose of the early concentration camps was to repress and terrorize opponents of the new regime, primarily communists, but also socialists, dissenting Christians, and trade unionists. Unlike later concentration camps, the prisoners and the guards at Kemna were from the same cities and in many cases, knew each other and were already enemies from the German Revolution of 1918\u20131919 and subsequent political battles of the 1920s. Torture was practiced and the screams of the men were audible to people living and working nearby, and severely injured men were taken to nearby hospitals, all causing word of the camp's misdeeds to spread quickly. There was a major release of prisoners in October 1933; those released were forced to sign a document promising to keep secret all they had seen and experienced at the camp, and were threatened with re-arrest if they disobeyed. The Nazis wanted the public to become familiar with the term \"concentration camp\" and regard it with dread, but worried that the excesses at Kemna and the other early concentration camps would turn public opinion against them and thwart their plans. As a result, the camp was closed in January 1934, just six months after it opened. After the SA lost political influence, reports of torture led to an investigation and eventually to hearings and the perpetrators given a warning. No crimes were prosecuted.",
+        {
+            "entities": [
+                [
+                    256,
+                    261,
+                    "CONC_CAMP"
+                ],
+                [
+                    1019,
+                    1024,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "After the war, the Kemna Trial became the first major German trial regarding a concentration camp. Nonetheless, the camp was afterward largely forgotten, with no research into its past and for decades, only two sources supplying most of the information known about the camp. In 1983, a monument honoring the prisoners who suffered there was installed across the street from the former concentration camp; the builders of the monument were forbidden by the owner of the property from erecting any memorial on the site itself.",
+        {
+            "entities": [
+                [
+                    19,
+                    24,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Lichtenburg was a Nazi concentration camp, housed in a Renaissance castle in Prettin, near Wittenberg in the Province of Saxony. Along with Sachsenburg, it was among the first to be built by the Nazis, and was operated by the SS from 1933 to 1939. It held as many as 2000 male prisoners from 1933 to 1937 and from 1937 to 1939 held female prisoners. It was closed in May 1939, when the Ravensbr\u00fcck concentration camp for women was opened, which replaced Lichtenburg as the main camp for female prisoners.",
+        {
+            "entities": [
+                [
+                    0,
+                    11,
+                    "CONC_CAMP"
+                ],
+                [
+                    386,
+                    397,
+                    "CONC_CAMP"
+                ],
+                [
+                    454,
+                    465,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Details about the operation of Lichtenburg, held by the International Tracing Service, only became available to researchers in late 2006. An account of the way the camp was run may be read in Lina Haag's book A Handful of Dust or How Long the Night. Haag was perhaps the best known survivor of Lichtenburg, having obtained release before it was shut down.",
+        {
+            "entities": [
+                [
+                    31,
+                    42,
+                    "CONC_CAMP"
+                ],
+                [
+                    294,
+                    305,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Lichtenburg was among the first concentration camps in Nazi Germany operating from 13 June 1933, it became a kind of model for numerous subsequent establishments. Soon overcrowded, the detention conditions increasingly aggravated. Most of the inmates were political prisoners, and so-called habitual offenders . From 1937 on it became a camp only for women. In 1939 the SS transferred 900 Lichtenburg prisoners to Ravensbr\u00fcck, which were its first female prisoners.",
+        {
+            "entities": [
+                [
+                    0,
+                    11,
+                    "CONC_CAMP"
+                ],
+                [
+                    389,
+                    400,
+                    "CONC_CAMP"
+                ],
+                [
+                    414,
+                    425,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "The castle today houses a regional museum and exhibit about Lichtenburg's use during the Nazi period.",
+        {
+            "entities": [
+                [
+                    60,
+                    71,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Nohra concentration camp From Wikipedia, the free encyclopedia Jump to navigationJump to search Nohra Nazi concentration camp Coordinates\t50\u00b058\u203244\u2033N 11\u00b013\u203258\u2033ECoordinates: 50\u00b058\u203244\u2033N 11\u00b013\u203258\u2033E Known for\tfirst Nazi concentration camp Location\tNohra, Germany Operated by\tThuringia interior ministry Original use\tschool, airfield Operational\t1933 Inmates\tCommunists Number of inmates\t250 The Nohra concentration camp  was the first of the early Nazi concentration camps in Germany, established 3 March 1933 in a school in Nohra. In the few months of its existence, it was administered by the interior ministry of Thuringia and used exclusively to imprison communists.",
+        {
+            "entities": [
+                [
+                    0,
+                    5,
+                    "CONC_CAMP"
+                ],
+                [
+                    96,
+                    101,
+                    "CONC_CAMP"
+                ],
+                [
+                    243,
+                    248,
+                    "CONC_CAMP"
+                ],
+                [
+                    390,
+                    395,
+                    "CONC_CAMP"
+                ],
+                [
+                    520,
+                    525,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Nazi party had been part of the Thuringia state government since 1930, when Wilhelm Frick was appointed interior minister. In the 1932 state elections, the Nazis won a plurality of the votes and formed a coalition government under Fritz Sauckel, who also served as interior minister. In February 1933, a Thuringian Hilfspolizei was formed, an auxiliary police unit under Sauckel that consisted of SA, SS, and Stahlhelm members. After the 27 February 1933 Reichstag fire, hundreds of communists were arrested. To reduce overcrowding in the prisons, the interior ministry of Thuringia decided to open additional camps, called assembly camps , and the first such camp was opened on 3 March 1933 in Nohra, close to Weimar. One of the first to be taken into \"protective custody\" at Nohra was the communist member of the Thuringia state parliament, Fritz G\u00e4bler.",
+        {
+            "entities": [
+                [
+                    699,
+                    704,
+                    "CONC_CAMP"
+                ],
+                [
+                    781,
+                    786,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Site The camp was located in the Heimatschule Mitteldeutschland, a right-wing military school that accepted volunteers in the Freiwilliger Arbeitsdienst. The school buildings were located on the former Nohra airfield  and consisted of two buildings that were connected by one long low-rise building. The camp was located on the second floor of one of the buildings, and divided into three large rooms, furnished only with straw and blankets. There were no fences or barbed wire.",
+        {
+            "entities": [
+                [
+                    202,
+                    207,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Administration and guards Unlike most other concentration camps, Nohra was not administered by the SA or SS, but by the Thuringia interior ministry. As there were not enough policemen to guard the camp, Heimatschule students were employed as additional guards. A police station was set up in the school building where newcomers were interrogated. The commander of the station lived in a villa close by, still called Kommandantenvilla locally that was used as a Gasthaus as of 2003.",
+        {
+            "entities": [
+                [
+                    65,
+                    70,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Prisoners and camp life All prisoners of Nohra were Thuringian communists, including half of the Communist party group in the Thuringian state parliament. The prisoners did not work, but spent the entire day in the halls where they slept, with only interrogations and new arrivals interrupting the monotony. Hygiene conditions were very poor, especially as the camp was sometimes very crowded. Occupancy averaged at 95, with a maximum of 220. In total, about 250 prisoners were interned at Nohra until the camp was closed.",
+        {
+            "entities": [
+                [
+                    41,
+                    46,
+                    "CONC_CAMP"
+                ],
+                [
+                    490,
+                    495,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Nohra inmates were allowed to vote in the March 1933 German federal election, and their presence caused a significant rise in the communist vote in Nohra .",
+        {
+            "entities": [
+                [
+                    4,
+                    9,
+                    "CONC_CAMP"
+                ],
+                [
+                    152,
+                    157,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Rudolf Arnold   Richard Eyermann   Fritz G\u00e4bler  Werner Klinz  Fritz Koch , died on 17 March 1933 from an infection caught at the camp, the only death related to Nohra concentration camp Leander Kr\u00f6ber   Erich Scharf   Hermann Steudner   Closure and legacy Nohra was among the first concentration camps that were closed down again. The closing date has been reported to be 12 April 1933, 10 May 1933, or July 1933. Remaining prisoners were moved to a prison in Ichtershausen. The camp was succeeded by Bad Sulza concentration camp  in nearby Bad Sulza.",
+        {
+            "entities": [
+                [
+                    162,
+                    167,
+                    "CONC_CAMP"
+                ],
+                [
+                    257,
+                    262,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "In 1988, the Weimar district Socialist Unity Party of Germany ordered the installation of a memorial plaque for the concentration camp in Nohra. After German reunification, the plaque was moved to the town hall attic in 1990, and there was no local indication of the existence of the camp in the early 2000s. In the 2010s, a local history club was working on having memorial boards installed.",
+        {
+            "entities": [
+                [
+                    138,
+                    143,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Oranienburg concentration camp From Wikipedia, the free encyclopedia Jump to navigationJump to search",
+        {
+            "entities": [
+                [
+                    0,
+                    11,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "KZ Oranienburg, Nazi Germany 1933. Oranienburg was an early German concentration camp, one of the first detention facilities established by the Nazis in the state of Prussia when they gained power in 1933. It held the political opponents of Nazi Party from the Berlin region, mostly members of the Communist Party of Germany and social-democrats, as well as a number of homosexual men and scores of the so-called undesirables.",
+        {
+            "entities": [
+                [
+                    3,
+                    14,
+                    "CONC_CAMP"
+                ],
+                [
+                    35,
+                    46,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "It was established in the center of the town of Oranienburg on the main road to Berlin when the SA took over a disused brewery grounds. Passers-by were able to look inside the prison perimeter. Prisoners were marched through the town to perform forced labour on behalf of the local council.",
+        {
+            "entities": [
+                [
+                    48,
+                    59,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Oranienburg Concentration Camp Memorial on the site of the camp, Berliner Stra\u00dfe, Oranienburg Oranienburg Concentration Camp Memorial on the site of the camp, Berliner Stra\u00dfe, Oranienburg. The brick wall is all that remains of the brewery. The prison was taken over by the SS on 4 July 1934, when the SA was suppressed by the regime. It was closed and subsequently replaced in the area by Sachsenhausen concentration camp in 1936. At closure, the prison had held over 3,000 inmates, of whom 16 had died.",
+        {
+            "entities": [
+                [
+                    0,
+                    11,
+                    "CONC_CAMP"
+                ],
+                [
+                    82,
+                    93,
+                    "CONC_CAMP"
+                ],
+                [
+                    94,
+                    105,
+                    "CONC_CAMP"
+                ],
+                [
+                    176,
+                    187,
+                    "CONC_CAMP"
+                ],
+                [
+                    389,
+                    402,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Osthofen concentration camp From Wikipedia, the free encyclopedia Jump to navigationJump to search Osthofen Nazi concentration camp Brick factory building with metal gate Entrance to concentration camp memorial, 2019. Coordinates\t49\u00b042\u203228\u2033N 08\u00b019\u203233\u2033ECoordinates: 49\u00b042\u203228\u2033N 08\u00b019\u203233\u2033E Location\tOsthofen, Germany Operated by\tHesse Political Police Commandant\tKarl d'Angelo  Original use\tpaper factory Operational\tMarch 1933\u2013July 1934 Inmates\tPolitical prisoners, Jehovah's Witnesses, Seventh-Day Adventists, Jews Number of inmates\t3,000 Notable inmates\tMax Dienemann Carlo Mierendorff Max Tschornicki Website\thttp://projektosthofen-gedenkstaette.de The Osthofen concentration camp  was an early Nazi concentration camp in Osthofen, close to Worms, Germany. It was established in March 1933 in a former paper factory. The camp was administered by the People's State of Hesse's Political Police, with guards first drawn from SA and SS, later only SS men. The first prisoners were mostly Communists or Social Democrats, but later Jehovah's Witnesses, Seventh-Day Adventists and non-political Jews were also sent to the camp.",
+        {
+            "entities": [
+                [
+                    0,
+                    8,
+                    "CONC_CAMP"
+                ],
+                [
+                    99,
+                    107,
+                    "CONC_CAMP"
+                ],
+                [
+                    295,
+                    303,
+                    "CONC_CAMP"
+                ],
+                [
+                    653,
+                    661,
+                    "CONC_CAMP"
+                ],
+                [
+                    722,
+                    730,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Usually, Osthofen held 200 people at a time, with a total of about 3,000 prisoners over the existence of the camp. While none of the inmates died in the camp, many became sick due to the poor living conditions and hygiene. Abuse and humiliation of the prisoners, who were used as unpaid labourers, was common. One of the two prisoners who managed to escape from Osthofen, Max Tschornicki, met the author Anna Seghers in her Paris exile, and her novel The Seventh Cross, describes the conditions at a fictional \"Westhofen concentration camp\", inspired by Osthofen.",
+        {
+            "entities": [
+                [
+                    9,
+                    17,
+                    "CONC_CAMP"
+                ],
+                [
+                    362,
+                    370,
+                    "CONC_CAMP"
+                ],
+                [
+                    554,
+                    562,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Sonnenburg concentration camp  was opened on 3 April 1933 in Sonnenburg  near K\u00fcstrin  in a former Neumark prison, on the initiative of the Free State of Prussia Ministry of the Interior and Justice.",
+        {
+            "entities": [
+                [
+                    0,
+                    10,
+                    "CONC_CAMP"
+                ],
+                [
+                    61,
+                    71,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Although the state of hygiene in the building, which had been closed in 1930 was appalling, officials of the Prussian justice ministry recommended it as a suitable site. They estimated the capacity of the building at 941 so-called protective custody prisoners , who could be accommodated either in single cells or in communal cells holding up to 20, 30 and 60 people each. The first 200 prisoners along with 60 SA auxiliary police came on 3 April 1933 from the Berlin Police Presidium. Later, on the order of the head of the Prussian Gestapo, prisoners were deported from the penal institution of Gollnow in Pomerania to Sonnenburg, bringing the number of inmates to 1,000.",
+        {
+            "entities": [
+                [
+                    621,
+                    631,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Sonnenburg concentration camp was closed on 23 April 1934. The prison heritage building still exists. Since the beginning of the Second World War in 1939 the concentration camp or punishment camp  continued as a concentration and labour camp for alleged anti-German people from the occupied territories until 1945. Amongst its inmates were the resistance fighters, Jean-Baptiste Lebas and Bj\u00f8rn Egge. The French spy, Ren\u00e9 Lefebvre, father of Archbishop Marcel Lefebvre, succumbed in 1944 to the consequences of imprisonment there.",
+        {
+            "entities": [
+                [
+                    0,
+                    10,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Notable prisoners During the early years of their rule, and long before the start of the war, the Nazi regime mainly imprisoned Communists and Social Democrats in Sonnenburg. These included:",
+        {
+            "entities": [
+                [
+                    163,
+                    173,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Gerhard Kratzat, German resistance fighter Jean-Baptiste Lebas, French minister and deputy to the National Assembly, World War I and II resistance activist Hans Litten, German lawyer Erich M\u00fchsam, German-Jewish antimilitarist anarchist writer Carl von Ossietzky, German pacifist Ren\u00e9 Lefebvre, French resistance fighter Eug\u00e8ne Greau, French professional cyclist Other early concentration camps Breitenau concentration camp  Breslau-D\u00fcrrgoy concentration camp in Wroc\u0142aw, Poland Esterwegen concentration camp Kemna concentration camp Oranienburg concentration camp Vulkanwerft concentration camp in the Bredow district of Stettin",
+        {
+            "entities": [
+                [
+                    394,
+                    403,
+                    "CONC_CAMP"
+                ],
+                [
+                    424,
+                    439,
+                    "CONC_CAMP"
+                ],
+                [
+                    478,
+                    488,
+                    "CONC_CAMP"
+                ],
+                [
+                    508,
+                    513,
+                    "CONC_CAMP"
+                ],
+                [
+                    533,
+                    544,
+                    "CONC_CAMP"
+                ],
+                [
+                    564,
+                    575,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Vulkanwerft concentration camp From Wikipedia, the free encyclopedia Jump to navigationJump to search",
+        {
+            "entities": [
+                [
+                    0,
+                    11,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "SMS Hansa II in the dock of the Vulkan Werft, Szczecin  Vulkanwerft concentration camp in the Bredow district of Szczecin , also known as the KZ Stettin-Bredow, was one of the early so-called \"wild\" German Nazi concentration camps set up by the SA , in October 1933. The camp existed only until 11 March 1934, before prisoner transfer, and in spite of its short history, had as many as three commandants including SS-Truppf\u00fchrer Otto Meier, SS-Truppf\u00fchrer Karl Salis, and SS-Truppf\u00fchrer Fritz Pleines. The camp was notorious for the brutality of its guards. The prisoners were kept in the basement of the shipyard buildings.",
+        {
+            "entities": [
+                [
+                    56,
+                    67,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Other early concentration camps Breitenau concentration camp  Breslau-D\u00fcrrgoy concentration camp in Wroc\u0142aw, Poland  Esterwegen concentration camp Kemna concentration camp Oranienburg concentration camp",
+        {
+            "entities": [
+                [
+                    32,
+                    41,
+                    "CONC_CAMP"
+                ],
+                [
+                    62,
+                    77,
+                    "CONC_CAMP"
+                ],
+                [
+                    117,
+                    127,
+                    "CONC_CAMP"
+                ],
+                [
+                    147,
+                    152,
+                    "CONC_CAMP"
+                ],
+                [
+                    172,
+                    183,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Arbeitsdorf concentration camp From Wikipedia, the free encyclopedia Jump to navigationJump to search Nazi concentration camps Prisoners hauling earth for the construction of the \"Russian camp\" at Mauthausen.jpg Prisoners hauling earth for the construction of the \"Russian camp\" at Mauthausen Main camps Organization Topics Personnel Prisoners Wikimedia | \u00a9 OpenStreetMap Arbeitsdorf  was a concentration camp established by the Nazis in Stadt des KdF-Wagens bei Fallersleben 1942.",
+        {
+            "entities": [
+                [
+                    0,
+                    11,
+                    "CONC_CAMP"
+                ],
+                [
+                    282,
+                    292,
+                    "CONC_CAMP"
+                ],
+                [
+                    372,
+                    383,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "With Hitler's approval, Porsche and his business partner Albert Speer set up a factory in Fallersleben, a town 30 miles  northeast of the city of Braunschweig, and because of the war, all production from this camp was to be used for military purposes only. In 1942, Porsche and Speer started a project to see how they could use concentration camp inmates for cheaper, and large-scale production of their cars, in order to benefit their industry. The prisoners of Arbeitsdorf were skilled workforce used for construction tasks, building a casting plant and other facilities and receiving better captivity conditions in return.",
+        {
+            "entities": [
+                [
+                    463,
+                    474,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "So on 8 April 1942 a new concentration camp, Arbeitsdorf, was opened with 800 inmates from the Neuengamme concentration camp. The camp commands of Neuengamme and Arbeitsdorf were united in the person of Martin Weiss, the camp commander of Neuengamme at this time. On 26 April 1942 inmates from the Sachsenhausen concentration camp and on 23 June inmates from Buchenwald arrived. Mid-July 1942 camp commander became Wilhelm Schitli, former Schutzhaft-camp commander in Neuengamme.",
+        {
+            "entities": [
+                [
+                    45,
+                    56,
+                    "CONC_CAMP"
+                ],
+                [
+                    95,
+                    105,
+                    "CONC_CAMP"
+                ],
+                [
+                    147,
+                    157,
+                    "CONC_CAMP"
+                ],
+                [
+                    162,
+                    173,
+                    "CONC_CAMP"
+                ],
+                [
+                    239,
+                    249,
+                    "CONC_CAMP"
+                ],
+                [
+                    298,
+                    311,
+                    "CONC_CAMP"
+                ],
+                [
+                    359,
+                    369,
+                    "CONC_CAMP"
+                ],
+                [
+                    468,
+                    478,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Closing and the death toll of the camp On 11 October 1942, six months after the camp was first established, production of the vehicles was stopped and the camp was closed. A minimum of six prisoners perished at Arbeitsdorf. These six deaths are officially listed as suicide, heart attack or accident.",
+        {
+            "entities": [
+                [
+                    211,
+                    222,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Auschwitz concentration camp From Wikipedia, the free encyclopedia Jump to navigationJump to search \"Auschwitz\" redirects here. For the modern settlement, see O\u015bwi\u0119cim. For other uses, see Auschwitz . Auschwitz Konzentrationslager Auschwitz Nazi concentration and extermination camp  Auschwitz I .jpg Birkenau m\u00fazeum - panoramio .jpg Top: Gate to Auschwitz I with its Arbeit macht frei sign  Bottom: Auschwitz II-Birkenau gatehouse; the train track, in operation May\u2013October 1944, led directly to the gas chambers. Coordinates\t50\u00b002\u203209\u2033N 19\u00b010\u203242\u2033ECoordinates: 50\u00b002\u203209\u2033N 19\u00b010\u203242\u2033E Known for\tThe Holocaust Location\tGerman-occupied Poland Operated by\tNazi Germany and the Schutzstaffel Commandant\tRudolf H\u00f6ss Original use\tArmy barracks Operational\tMay 1940 \u2013 January 1945 Inmates\tMainly Jews, Poles, Romani, Soviet prisoners of war Number of inmates\tAt least 1.3 million Killed\tAt least 1.1 million Liberated by\tSoviet Union, 27 January 1945 Notable inmates\tAuschwitz prisoners: Adolf Burger, Anne Frank, Viktor Frankl, Imre Kert\u00e9sz, Maximilian Kolbe, Primo Levi, Fritz L\u00f6hner-Beda, Ir\u00e8ne N\u00e9mirovsky, Witold Pilecki, Liliana Segre, Edith Stein, Simone Veil, Rudolf Vrba, Alfr\u00e9d Wetzler, Elie Wiesel, Else Ury Notable books\t Man's Search for Meaning If This Is a Man Night Maus  Website\tauschwitz.org/en/ UNESCO World Heritage Site Official name\tAuschwitz Birkenau, German Nazi Concentration and Extermination Camp  Type\tCultural Criteria\tvi Designated\t1979  Reference no.\t31 Region\tEurope and North America Auschwitz concentration camp  ); also KL Auschwitz or KZ Auschwitz) was a complex of over 40 concentration and extermination camps operated by Nazi Germany in occupied Poland  during World War II and the Holocaust. It consisted of Auschwitz I, the main camp  in O\u015bwi\u0119cim; Auschwitz II-Birkenau, a concentration and extermination camp with gas chambers; Auschwitz III-Monowitz, a labor camp for the chemical conglomerate IG Farben; and dozens of subcamps. The camps became a major site of the Nazis' Final Solution to the Jewish Question.",
+        {
+            "entities": [
+                [
+                    0,
+                    9,
+                    "CONC_CAMP"
+                ],
+                [
+                    101,
+                    110,
+                    "CONC_CAMP"
+                ],
+                [
+                    189,
+                    198,
+                    "CONC_CAMP"
+                ],
+                [
+                    201,
+                    210,
+                    "CONC_CAMP"
+                ],
+                [
+                    231,
+                    240,
+                    "CONC_CAMP"
+                ],
+                [
+                    284,
+                    293,
+                    "CONC_CAMP"
+                ],
+                [
+                    347,
+                    356,
+                    "CONC_CAMP"
+                ],
+                [
+                    400,
+                    409,
+                    "CONC_CAMP"
+                ],
+                [
+                    958,
+                    967,
+                    "CONC_CAMP"
+                ],
+                [
+                    1345,
+                    1354,
+                    "CONC_CAMP"
+                ],
+                [
+                    1507,
+                    1516,
+                    "CONC_CAMP"
+                ],
+                [
+                    1548,
+                    1557,
+                    "CONC_CAMP"
+                ],
+                [
+                    1564,
+                    1573,
+                    "CONC_CAMP"
+                ],
+                [
+                    1738,
+                    1747,
+                    "CONC_CAMP"
+                ],
+                [
+                    1779,
+                    1788,
+                    "CONC_CAMP"
+                ],
+                [
+                    1860,
+                    1869,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "After Germany sparked World War II by invading Poland in September 1939, the Schutzstaffel  converted Auschwitz I, an army barracks, into a prisoner-of-war camp.",
+        {
+            "entities": [
+                [
+                    102,
+                    111,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "The initial transport of political detainees to Auschwitz consisted nearly solely of Poles to whom the camp was initially established. The bulk of inmates were Polish for the first two years.",
+        {
+            "entities": [
+                [
+                    48,
+                    57,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "In May 1940, German criminals brought to the camp as functionaries, established the camp's reputation for sadism. Prisoners were beaten, tortured, and executed for the most trivial reasons. The first gassings\u2014of Soviet and Polish prisoners\u2014took place in block 11 of Auschwitz I around August 1941. Construction of Auschwitz II began the following month, and from 1942 until late 1944 freight trains delivered Jews from all over German-occupied Europe to its gas chambers. Of the 1.3 million people sent to Auschwitz, 1.1 million were murdered. The number of victims includes 960,000 Jews , 74,000 ethnic Poles, 21,000 Roma, 15,000 Soviet prisoners of war, and up to 15,000 other Europeans. Those not gassed were murdered via starvation, exhaustion, disease, individual executions, or beatings. Others were killed during medical experiments.",
+        {
+            "entities": [
+                [
+                    266,
+                    275,
+                    "CONC_CAMP"
+                ],
+                [
+                    314,
+                    323,
+                    "CONC_CAMP"
+                ],
+                [
+                    506,
+                    515,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "As the Soviet Red Army approached Auschwitz in January 1945, toward the end of the war, the SS sent most of the camp's population west on a death march to camps inside Germany and Austria. Soviet troops entered the camp on 27 January 1945, a day commemorated since 2005 as International Holocaust Remembrance Day. In the decades after the war, survivors such as Primo Levi, Viktor Frankl, and Elie Wiesel wrote memoirs of their experiences, and the camp became a dominant symbol of the Holocaust. In 1947, Poland founded the Auschwitz-Birkenau State Museum on the site of Auschwitz I and II, and in 1979 it was named a World Heritage Site by UNESCO.",
+        {
+            "entities": [
+                [
+                    34,
+                    43,
+                    "CONC_CAMP"
+                ],
+                [
+                    525,
+                    534,
+                    "CONC_CAMP"
+                ],
+                [
+                    572,
+                    581,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Bergen-Belsen concentration camp From Wikipedia, the free encyclopedia Jump to navigationJump to search \"Bergen-Belsen\" redirects here. For other uses, see Bergen-Belsen . Coordinates: 52\u00b045\u203228\u2033N 9\u00b054\u203228\u2033E",
+        {
+            "entities": [
+                [
+                    0,
+                    13,
+                    "CONC_CAMP"
+                ],
+                [
+                    105,
+                    118,
+                    "CONC_CAMP"
+                ],
+                [
+                    156,
+                    169,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Bergen-Belsen Nazi concentration camp The Liberation of Bergen-belsen Concentration Camp, April 1945 BU4711 .jpg View of the camp after liberation Bergen-Belsen concentration camp is located in GermanyBergen-Belsen concentration camp Location of Bergen-Belsen within Germany Location\tLower Saxony, Northern Germany Operated by\tSS-Totenkopfverbande Commandant\t List Original use\tPrisoner-of-war camp Operational\t1940\u20131945 Inmates\tJews, Poles, Soviets, Dutch, Czechs, Germans, Austrians Number of inmates\t120,000 Killed\t50,000 or more Liberated by\tUnited Kingdom and Canada, April 15, 1945 Notable inmates\tAnne and Margot Frank Website\tbergen-belsen.stiftung-ng.de/en/ Bergen-Belsen , or Belsen, was a Nazi concentration camp in what is today Lower Saxony in northern Germany, southwest of the town of Bergen near Celle. Originally established as a prisoner of war camp, in 1943, parts of it became a concentration camp. Initially this was an \"exchange camp\", where Jewish hostages were held with the intention of exchanging them for German prisoners of war held overseas. The camp was later expanded to accommodate Jews from other concentration camps.",
+        {
+            "entities": [
+                [
+                    0,
+                    13,
+                    "CONC_CAMP"
+                ],
+                [
+                    147,
+                    160,
+                    "CONC_CAMP"
+                ],
+                [
+                    246,
+                    259,
+                    "CONC_CAMP"
+                ],
+                [
+                    667,
+                    680,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Buchenwald concentration camp From Wikipedia, the free encyclopedia Jump to navigationJump to search \"Buchenwald\" redirects here. For other uses, see Buchenwald . Buchenwald Nazi concentration camp Buchenwald Prisoners Undressing 80135.jpg Polish prisoners forced to undress after arriving in the camp, c.\u20091940 Below: Roll call at Buchenwald Buchenwald Prisoners Roll Call 10105.jpg Location\tWeimar, Germany Operated by\tSchutzstaffel Commandant\t Karl-Otto Koch Hermann Pister  Operational\t15 July 1937 \u2013 11 April 1945 Number of inmates\t280,000 Killed\t56,545 Liberated by\t6th Armored Division, United States Army Website\twww.buchenwald.de/en/69/ Buchenwald ; literally 'beech wood') was a Nazi concentration camp established on Ettersberg  hill near Weimar, Germany, in July 1937. It was one of the first and the largest of the concentration camps within Germany's 1937 borders. Many actual or suspected communists were among the first internees.",
+        {
+            "entities": [
+                [
+                    0,
+                    10,
+                    "CONC_CAMP"
+                ],
+                [
+                    102,
+                    112,
+                    "CONC_CAMP"
+                ],
+                [
+                    150,
+                    160,
+                    "CONC_CAMP"
+                ],
+                [
+                    163,
+                    173,
+                    "CONC_CAMP"
+                ],
+                [
+                    198,
+                    208,
+                    "CONC_CAMP"
+                ],
+                [
+                    331,
+                    341,
+                    "CONC_CAMP"
+                ],
+                [
+                    342,
+                    352,
+                    "CONC_CAMP"
+                ],
+                [
+                    645,
+                    655,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Prisoners came from all over Europe and the Soviet Union\u2014Jews, Poles and other Slavs, the mentally ill and physically disabled, political prisoners, Romani people, Freemasons, and prisoners of war. There were also ordinary criminals and sexual \"deviants\". All prisoners worked primarily as forced labor in local armaments factories. The insufficient food and poor conditions, as well as deliberate executions, led to 56,545 deaths at Buchenwald of the 280,000 prisoners who passed through the camp and its 139 subcamps. The camp gained notoriety when it was liberated by the United States Army in April 1945; Allied commander Dwight D. Eisenhower visited one of its subcamps.",
+        {
+            "entities": [
+                [
+                    434,
+                    444,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "From August 1945 to March 1950, the camp was used by the Soviet occupation authorities as an internment camp, NKVD special camp Nr. 2, where 28,455 prisoners were held and 7,113 of whom died. Today the remains of Buchenwald serve as a memorial and permanent exhibition and museum.",
+        {
+            "entities": [
+                [
+                    213,
+                    223,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Dachau concentration camp From Wikipedia, the free encyclopedia Jump to navigationJump to search Coordinates: 48\u00b016\u203208\u2033N 11\u00b028\u203207\u2033E",
+        {
+            "entities": [
+                [
+                    0,
+                    6,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "\"Dachau\" redirects here. For the town, see Dachau, Bavaria. For other uses, see Dachau . Dachau Nazi concentration camp KZDachau1945.jpg U.S. soldiers guarding the main entrance to Dachau just after liberation, 1945 Dachau concentration camp is located in GermanyDachau concentration camp Location of Dachau within Nazi Germany in 1937 Other names\tGerman: Konzentrationslager  Dachau, IPA:  Location\tUpper Bavaria, Southern Germany Built by\tGermany Operated by\tSchutzstaffel  Commandant\tList of commandants Original use\tPolitical prison Operational\tMarch 1933 \u2013 April 1945 Inmates\tPolitical prisoners, Poles, Romani, Jews, homosexuals, Jehovah's Witnesses, Catholic priests, Communists Number of inmates\tOver 188,000  Killed\t41,500  Liberated by\tU.S. Army Website\tkz-gedenkstaette-dachau.de Dachau  was a Nazi concentration camp opened on 22 March 1933, which was initially intended to hold political prisoners. It is located on the grounds of an abandoned munitions factory northeast of the medieval town of Dachau, about 16 km  northwest of Munich in the state of Bavaria, in southern Germany. After its opening by Heinrich Himmler, its purpose was enlarged to include forced labor, and, eventually, the imprisonment of Jews, Romani, German and Austrian criminals, and, finally, foreign nationals from countries that Germany occupied or invaded. The Dachau camp system grew to include nearly 100 sub-camps, which were mostly work camps or Arbeitskommandos, and were located throughout southern Germany and Austria. The main camp was liberated by U.S. forces on 29 April 1945.",
+        {
+            "entities": [
+                [
+                    1,
+                    7,
+                    "CONC_CAMP"
+                ],
+                [
+                    43,
+                    49,
+                    "CONC_CAMP"
+                ],
+                [
+                    80,
+                    86,
+                    "CONC_CAMP"
+                ],
+                [
+                    89,
+                    95,
+                    "CONC_CAMP"
+                ],
+                [
+                    181,
+                    187,
+                    "CONC_CAMP"
+                ],
+                [
+                    216,
+                    222,
+                    "CONC_CAMP"
+                ],
+                [
+                    301,
+                    307,
+                    "CONC_CAMP"
+                ],
+                [
+                    377,
+                    383,
+                    "CONC_CAMP"
+                ],
+                [
+                    791,
+                    797,
+                    "CONC_CAMP"
+                ],
+                [
+                    1009,
+                    1015,
+                    "CONC_CAMP"
+                ],
+                [
+                    1352,
+                    1358,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "In the postwar years, the Dachau facility served to hold SS soldiers awaiting trial. After 1948, it held ethnic Germans who had been expelled from eastern Europe and were awaiting resettlement, and also was used for a time as a United States military base during the occupation. It was finally closed in 1960.",
+        {
+            "entities": [
+                [
+                    26,
+                    32,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Flossenb\u00fcrg concentration camp From Wikipedia, the free encyclopedia Jump to navigationJump to search \"Flossenb\u00fcrg\" redirects here. For the town, see Flossenb\u00fcrg, Bavaria. Flossenb\u00fcrg Nazi concentration camp Flossenburg.jpg The camp after liberation Coordinates\t49\u00b044\u203208\u2033N 12\u00b021\u203221\u2033ECoordinates: 49\u00b044\u203208\u2033N 12\u00b021\u203221\u2033E Location\tFlossenb\u00fcrg, Germany Operated by\tNazi Germany Commandant\t List Companies involved\tGerman Earth and Stone Works, Messerschmitt AG Operational\t3 May 1938 \u2013 23 April 1945 Inmates\tPolitical prisoners, Jews, criminals, antisocials Number of inmates\t89,974 Killed\t30,000 Liberated by\tUnited States Army Website\twww.gedenkstaette-flossenbuerg.de/en/home/ Flossenb\u00fcrg was a Nazi concentration camp built in May 1938 by the SS Main Economic and Administrative Office. Unlike other concentration camps, it was located in a remote area, in the Fichtel Mountains of Bavaria, adjacent to the town of Flossenb\u00fcrg and near the German border with Czechoslovakia. The camp's initial purpose was to exploit the forced labor of prisoners for the production of granite for Nazi architecture. In 1943, the bulk of prisoners switched to producing Messerschmitt Bf 109 fighter planes and other armaments for Germany's war effort. Although originally intended for \"criminal\" and \"asocial\" prisoners, after Germany's invasion of the Soviet Union, the camp's numbers swelled with political prisoners from outside of Germany. It also developed an extensive subcamp system that eventually outgrew the main camp.",
+        {
+            "entities": [
+                [
+                    0,
+                    11,
+                    "CONC_CAMP"
+                ],
+                [
+                    103,
+                    114,
+                    "CONC_CAMP"
+                ],
+                [
+                    150,
+                    161,
+                    "CONC_CAMP"
+                ],
+                [
+                    172,
+                    183,
+                    "CONC_CAMP"
+                ],
+                [
+                    327,
+                    338,
+                    "CONC_CAMP"
+                ],
+                [
+                    675,
+                    686,
+                    "CONC_CAMP"
+                ],
+                [
+                    914,
+                    925,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Before it was liberated by the United States Army in April 1945, 89,964 to 100,000 prisoners passed through Flossenb\u00fcrg and its subcamps. Around 30,000 died from malnutrition, overwork, executions, or during the death marches. Some of those responsible for these deaths, including administrators, guards, and others, were tried and convicted in the Flossenb\u00fcrg trial. The camp was repurposed for other uses before the opening of a memorial and museum in 2007.",
+        {
+            "entities": [
+                [
+                    108,
+                    119,
+                    "CONC_CAMP"
+                ],
+                [
+                    349,
+                    360,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Gross-Rosen concentration camp From Wikipedia, the free encyclopedia Jump to navigationJump to search Coordinates: 50\u00b059\u203257\u2033N 16\u00b016\u203240\u2033E",
+        {
+            "entities": [
+                [
+                    0,
+                    11,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Gross-Rosen Nazi concentration camp Gross Rosen 3.JPG Gross-Rosen entrance gate with the phrase Arbeit Macht Frei Other names\tGerman: Konzentrationslager Gro\u00df-Rosen Commandant\t Arthur R\u00f6dl, May 1941 \u2013 September 1942 Wilhelm Gideon, September 1942 \u2013 October 1943 Johannes Hassebroek, October 1943 until evacuation Operational\tSummer of 1940 \u2013 14 February 1945 Inmates\tmostly Poles, Jews and Soviet citizens Number of inmates\t125,000  Killed\t40,000 Notable inmates\tBoris Braun, Adam Dul\u0119ba, Franciszek Dusze\u0144ko, Heda Margolius Kov\u00e1ly, W\u0142adys\u0142aw \u015alebodzi\u0144ski, Simon Wiesenthal, Rabbi Shlomo Zev Zweigenhaft Gross-Rosen was a network of Nazi concentration camps built and operated by Nazi Germany during World War II. The main camp was located in the German village of Gross-Rosen, now the modern-day Rogo\u017anica in Lower Silesian Voivodeship, Poland; directly on the rail-line between the towns of Jawor  and Strzegom . Its prisoners were mostly Jews, Poles and Soviet citizens.",
+        {
+            "entities": [
+                [
+                    0,
+                    11,
+                    "CONC_CAMP"
+                ],
+                [
+                    54,
+                    65,
+                    "CONC_CAMP"
+                ],
+                [
+                    604,
+                    615,
+                    "CONC_CAMP"
+                ],
+                [
+                    765,
+                    776,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "At its peak activity in 1944, the Gross-Rosen complex had up to 100 subcamps located in eastern Germany and in German-occupied Czechoslovakia and Poland. The population of all Gross-Rosen camps at that time accounted for 11% of the total number of inmates incarcerated in the Nazi concentration camp system.",
+        {
+            "entities": [
+                [
+                    34,
+                    45,
+                    "CONC_CAMP"
+                ],
+                [
+                    176,
+                    187,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Model of the Gross-Rosen main camp from the Rogo\u017anica Museum KZ Gross-Rosen was set up in the summer of 1940 as a satellite camp of the Sachsenhausen concentration camp from Oranienburg. Initially, the slave labour was carried out in a huge stone quarry owned by the SS-Deutsche Erd- und Steinwerke GmbH . In the fall of 1940 the use of labour in Upper Silesia was taken over by the new Organization Schmelt formed on the orders of Heinrich Himmler. It was named after its leader SS-Oberf\u00fchrer Albrecht Schmelt. The company was put in charge of employment from the camps with Jews intended to work for food only.",
+        {
+            "entities": [
+                [
+                    13,
+                    24,
+                    "CONC_CAMP"
+                ],
+                [
+                    64,
+                    75,
+                    "CONC_CAMP"
+                ],
+                [
+                    136,
+                    149,
+                    "CONC_CAMP"
+                ],
+                [
+                    174,
+                    185,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Gross-Rosen location close to occupied Poland was of considerable advantage. Prisoners were put to work in the construction of a system of subcamps for expelees from the annexed territories. Gross Rosen became an independent camp on 1 May 1941. As the complex grew, the majority of inmates were put to work in the new Nazi enterprises attached to these subcamps.",
+        {
+            "entities": [
+                [
+                    4,
+                    15,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "In October 1941 the SS transferred about 3,000 Soviet POWs to Gross-Rosen for execution by shooting. Gross-Rosen was known for its brutal treatment of the so-called Nacht und Nebel prisoners vanishing without a trace from targeted communities. Most died in the granite quarry. The brutal treatment of the political and Jewish prisoners was not only in the hands of guards and German criminal prisoners brought in by the SS, but to a lesser extent also fuelled by the German administration of the stone quarry responsible for starvation rations and denial of medical help. In 1942, for political prisoners, the average survival time-span was less than two months.",
+        {
+            "entities": [
+                [
+                    62,
+                    73,
+                    "CONC_CAMP"
+                ],
+                [
+                    101,
+                    112,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Map of Nazi concentration camps in occupied Poland marked with black squares. Location of Gross-Rosen, extreme left  Due to a change of policy in August 1942, prisoners were likely to survive longer because they were needed as slave workers in German war industries. Among the companies that benefited from the slave labour of the concentration camp inmates were German electronics manufacturers such as Blaupunkt, Siemens, as well as Krupp, IG Farben, and Daimler-Benz, among others. Some prisoners who were not able to work but not yet dying were sent to the Dachau concentration camp in so-called invalid transports.",
+        {
+            "entities": [
+                [
+                    90,
+                    101,
+                    "CONC_CAMP"
+                ],
+                [
+                    561,
+                    567,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "The largest population of inmates, however, were Jews, initially from the Dachau and Sachsenhausen camps, and later from Buchenwald. During the camp's existence, the Jewish inmate population came mainly from Poland and Hungary; others were from Belgium, France, Netherlands, Greece, Yugoslavia, Slovakia, and Italy.",
+        {
+            "entities": [
+                [
+                    74,
+                    80,
+                    "CONC_CAMP"
+                ],
+                [
+                    85,
+                    98,
+                    "CONC_CAMP"
+                ],
+                [
+                    121,
+                    131,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Following the unsuccessful Polish Warsaw Uprising of 1944, the Germans deported 3,000 Poles from the Dulag 121 camp in Pruszk\u00f3w, where they were initially imprisoned, to Gross-Rosen. Those Poles were mainly people of 20 to 40 years of age.",
+        {
+            "entities": [
+                [
+                    170,
+                    181,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Gross-Rosen memorial",
+        {
+            "entities": [
+                [
+                    0,
+                    11,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Mass grave of cremated victims Subcamps At its peak activity in 1944, the Gross-Rosen complex had up to 100 subcamps, located in eastern Germany and German-occupied Czechoslovakia and Poland. In its final stage, the population of the Gross-Rosen camps accounted for 11% of the total inmates in Nazi concentration camps at that time. A total of 125,000 inmates of various nationalities passed through the complex during its existence, of whom an estimated 40,000 died on site, on death marches and in evacuation transports. The camp was liberated on 14 February 1945 by the Red Army. A total of over 500 female camp guards were trained and served in the Gross-Rosen complex. Female SS staffed the women's subcamps of Br\u00fcnnlitz, Graeben, Gruenberg, Gruschwitz Neusalz, Hundsfeld, Kratzau II, Oberaltstadt, Reichenbach, and Schlesiersee Schanzenbau.",
+        {
+            "entities": [
+                [
+                    74,
+                    85,
+                    "CONC_CAMP"
+                ],
+                [
+                    234,
+                    245,
+                    "CONC_CAMP"
+                ],
+                [
+                    653,
+                    664,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Gabersdorf labour camp had been part of a network of forced labor camps for Jewish prisoners that had operated under Organization Schmelt since 1941. The spinning mill where the female Jewish prisoners worked had been \"Aryanized\" in 1939 by a Vienna-based company called Vereinigte Textilwerke K. H. Barthel & Co. The prisoners also worked in factories operated by the companies Aloys Haase and J. A. Kluge und Etrich. By 18 March 1944 Gabersdorf had become a subcamp of Gross-Rosen.",
+        {
+            "entities": [
+                [
+                    475,
+                    486,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "One subcamp of Gross-Rosen was the Br\u00fcnnlitz labor camp, situated in the Czechoslovakian town of Brn\u011bnec, where Jews rescued by Oskar Schindler were interned.",
+        {
+            "entities": [
+                [
+                    15,
+                    26,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Brieg subcamp, located near the village of Pampitz, had originally been the location of a Jewish forced labor camp until August 1944, when the Jewish prisoners were replaced by the first transport of prisoners from the Gross-Rosen main camp. The camp was mostly staffed by soldiers from the Luftwaffe and a few SS members. Most of the prisoners were Polish, with smaller numbers of Russian and Czech prisoners. Most of the Poles had been evacuated from the Pawiak prison in Warsaw; others had been arrested within the territory controlled by the Reich or had been transported from Krak\u00f3w and Radom.",
+        {
+            "entities": [
+                [
+                    223,
+                    234,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Camp commandants During the Gross-Rosen initial period of operation as a formal subcamp of Sachsenhausen, the following two SS Lagerf\u00fchrer officers served as the camp commandants, the SS-Untersturmf\u00fchrer Anton Thumann, and SS-Untersturmf\u00fchrer Georg G\u00fc\u00dfregen. From May 1941 until liberation, the following officials served as commandants of a fully independent concentration camp at Gross-Rosen:",
+        {
+            "entities": [
+                [
+                    28,
+                    39,
+                    "CONC_CAMP"
+                ],
+                [
+                    91,
+                    104,
+                    "CONC_CAMP"
+                ],
+                [
+                    382,
+                    393,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "List of Gross-Rosen camps with location Main article: List of subcamps of Gross-Rosen The most far-reaching expansion of the Gross-Rosen system of labour camps took place in 1944 due to accelerated demand for support behind the advancing front. The character and purpose of new camps shifted toward defense infrastructure. In some cities, as in Wroc\u0142aw  camps were established in every other district. It is estimated that their total number reached 100 at that point according to list of their official destinations. The biggest sub-camps included AL F\u00fcnfteichen in Jelcz-Laskowice, four camps in Wroc\u0142aw, Dyhernfurth in Brzeg Dolny, Landeshut in Kamienna G\u00f3ra, and the entire Project Riese along the Owl Mountains.",
+        {
+            "entities": [
+                [
+                    8,
+                    19,
+                    "CONC_CAMP"
+                ],
+                [
+                    74,
+                    85,
+                    "CONC_CAMP"
+                ],
+                [
+                    125,
+                    136,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Herzogenbusch concentration camp From Wikipedia, the free encyclopedia Jump to navigationJump to search Coordinates: 51\u00b039\u203257\u2033N 5\u00b015\u203232\u2033E",
+        {
+            "entities": [
+                [
+                    0,
+                    13,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Herzogenbusch Nazi concentration camp Black and white shot of a water-filled ditch, barbed-wire fences, and guard towers Fence of the camp, 1945 Herzogenbusch concentration camp is located in NetherlandsHerzogenbusch concentration camp Location of the camp in the Netherlands Other names\tDutch: Kamp Vught, pronounced , German: Konzentrationslager Herzogenbusch  Location\tVught, Netherlands Built by\tNazi Germany Operated by\tSS Commandant\t Karl Chmielewski  Adam Gr\u00fcnewald  Hans H\u00fcttig  First built\t1942 Operational\tJanuary 1943 26 October 1944 Inmates\tJews, Gypsies political prisoners Killed\t749 Liberated by\t51st Highland Division Notable inmates\tAnton Constandse, Helga Deen, David Koker Website\twww.nmkampvught.nl",
+        {
+            "entities": [
+                [
+                    0,
+                    13,
+                    "CONC_CAMP"
+                ],
+                [
+                    145,
+                    158,
+                    "CONC_CAMP"
+                ],
+                [
+                    348,
+                    361,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "The crematorium in the camp Herzogenbusch  ) was a Nazi concentration camp located in Vught near the town of 's-Hertogenbosch, Netherlands. The camp was opened in 1943 and held 31,000 prisoners. 749 prisoners died in the camp, and the others were transferred to other camps shortly before Herzogenbusch was liberated by the Allied Forces in 1944. After the war, the camp was used as a prison for Germans and for Dutch collaborators. Today there is a visitors' center which includes exhibitions and a memorial remembering the camp and its victims.",
+        {
+            "entities": [
+                [
+                    28,
+                    41,
+                    "CONC_CAMP"
+                ],
+                [
+                    289,
+                    302,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "History During World War II, Nazi Germany occupied Netherlands from 1940 to 1945. In 1942, the Nazis transported Jewish and other prisoners from the Netherlands via the transit camps Amersfoort and Westerbork to the Auschwitz concentration camp, except for 850 prisoners sent to Mauthausen concentration camp. When Amersfoort and Westerbork proved to be too small to handle the large number of prisoners, the Schutzstaffel  decided to build a concentration camp in Vught, near the town of 's-Hertogenbosch.",
+        {
+            "entities": [
+                [
+                    216,
+                    225,
+                    "CONC_CAMP"
+                ],
+                [
+                    279,
+                    289,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "The building of the camp at Herzogenbusch, the German name for 's-Hertogenbosch, started in 1942. The camp was modeled on concentration camps in Germany. The first prisoners, who arrived in 1943, had to finish the construction of the camp, which was in use from January 1943 until September 1944. During that period, it held nearly 31,000 prisoners: Jews, political prisoners, resistance fighters, Gypsies, Jehovah\u2019s Witnesses, homosexuals, homeless people, black market traders, criminals, and hostages.",
+        {
+            "entities": [
+                [
+                    28,
+                    41,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Due to hunger, sickness, and abuse, at least 749 men, women and children died in Herzogenbusch. Of those, 329 were murdered at the execution site just outside the camp. As Allied forces approached Herzogenbusch, the camp was evacuated and the prisoners were transferred to concentration camps further east. By 4\u20135 September 1944, the women inmates had been sent to Ravensbr\u00fcck Concentration Camp, and the men to Sachsenhausen concentration camp . On 26 October 1944, Scottish troops of the 7th Black Watch, and Canadian troops of the 4th Canadian Armoured Division's 96th Battery, 5th Anti-tank Regiment, liberated the camp during Operation Pheasant after fighting a rear guard of SS personnel left to defend the nearly evacuated facility. There were around 500-600 prisoners left alive, who were due to be executed that afternoon, and whose lives were saved by the arrival of the liberating forces. About 500 inmates were also discovered dead in piles near the gates, having been executed the very morning of the day the camp was liberated.",
+        {
+            "entities": [
+                [
+                    81,
+                    94,
+                    "CONC_CAMP"
+                ],
+                [
+                    197,
+                    210,
+                    "CONC_CAMP"
+                ],
+                [
+                    365,
+                    376,
+                    "CONC_CAMP"
+                ],
+                [
+                    412,
+                    425,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "On 2 June 1944, he and his family were transported by train to Auschwitz-Birkenau. Koker got the chance to throw a letter from the train. The family was later transported to the Gro\u00df-Rosen camp .",
+        {
+            "entities": [
+                [
+                    63,
+                    72,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Koker's mother and brother Max survived the war, but David died during a transport of sick people to Dachau in 1945.",
+        {
+            "entities": [
+                [
+                    101,
+                    107,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Diary of Helga Deen Helga Deen  was the author of a diary, discovered in 2004, which describes her time in the Herzogenbusch concentration camp in Vught, where she was taken during World War II at the age of 18.",
+        {
+            "entities": [
+                [
+                    111,
+                    124,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Commanders Karl Chmielewski The first commander of Herzogenbusch was 39-year-old Karl Chmielewski. During the first few months, the camp was poorly run. Prisoners didn't receive meals, the sick were barely treated, and the quality of drinking water was very poor. He was removed from command in 1943 for stealing from the camp on a large scale. In 1961, he was tried in West Germany and sentenced to life imprisonment for his homicidal brutality towards the prisoners.",
+        {
+            "entities": [
+                [
+                    51,
+                    64,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hans H\u00fcttig The last commander of Herzogenbusch was the 50-year-old Hans H\u00fcttig. He joined the SS in 1932 as an unpaid volunteer, and the Nazi party soon thereafter. In 1944, Huttig oversaw the evacuation and closure of the camp.",
+        {
+            "entities": [
+                [
+                    34,
+                    47,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "List of subcamps Main article: List of subcamps of KZ Herzogenbusch Current state The execution site near the camp is now a national monument, with a wall bearing the names of all those who died there. The wall has suffered numerous acts of vandalism. In one case, black smears were drawn on the wall, using tar, which seeped into the stone and proved impossible to remove.",
+        {
+            "entities": [
+                [
+                    54,
+                    67,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hinzert concentration camp From Wikipedia, the free encyclopedia Jump to navigationJump to search Hinzert Nazi concentration camp Buchenwald Hinzert SS 34560.jpg SS officers at a construction site in the Hinzert concentration camp Other names\tSS-Sonderlager Hinzert or Konzentrationslager/KZ Hinzert Location\tRhineland-Palatinate, Nazi Germany Operational\t1939\u20131945 Number of inmates\t13,600   Killed\tover 1,000  Hinzert was a concentration camp in Nazi Germany, in what is now Rhineland-Palatinate, 30 kilometres  from the border with Luxembourg.",
+        {
+            "entities": [
+                [
+                    0,
+                    7,
+                    "CONC_CAMP"
+                ],
+                [
+                    98,
+                    105,
+                    "CONC_CAMP"
+                ],
+                [
+                    130,
+                    140,
+                    "CONC_CAMP"
+                ],
+                [
+                    141,
+                    148,
+                    "CONC_CAMP"
+                ],
+                [
+                    204,
+                    211,
+                    "CONC_CAMP"
+                ],
+                [
+                    258,
+                    265,
+                    "CONC_CAMP"
+                ],
+                [
+                    292,
+                    299,
+                    "CONC_CAMP"
+                ],
+                [
+                    412,
+                    419,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Between 1939 and 1945, 13,600 political prisoners between the ages of 13 and 80 were imprisoned at Hinzert. Many were in transit towards larger concentration camps where most would be killed. However, many prisoners were executed at Hinzert. The camp was administered, run, and guarded mainly by the SS, who, according to Hinzert survivors, were notorious for their brutality and viciousness.",
+        {
+            "entities": [
+                [
+                    99,
+                    106,
+                    "CONC_CAMP"
+                ],
+                [
+                    233,
+                    240,
+                    "CONC_CAMP"
+                ],
+                [
+                    322,
+                    329,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Historical road sign at the Hinzert concentration camp. Located on the Hochwald plateau, and overlooking the Hunsr\u00fcck mountain range, the Hinzert concentration camp was named after the nearest village, now called Hinzert-P\u00f6lert. At an altitude of 550m, the plateau is exposed to much humidity, wind, strong precipitation, fog and glacial temperatures in winter. The camp was surrounded by a coniferous forest that provided lumber for the camp's construction and maintenance.",
+        {
+            "entities": [
+                [
+                    28,
+                    35,
+                    "CONC_CAMP"
+                ],
+                [
+                    138,
+                    145,
+                    "CONC_CAMP"
+                ],
+                [
+                    213,
+                    220,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Operational history The Hinzert concentration camp was first established in 1938 to house workers who were building the West Wall. However, it burnt down on August 16, 1939, and was rebuilt in October 1939 as a police detention and re-education camp, or Polizeihaft- und Erziehungslager des Reichsarbeitsdienstes , for prisoners condemned to light sentences  and for those workers that had demonstrated what the Nazi regime would call antisocial behavior. These workers, many of whom had been brought in by the Bremen Gestapo worked not only on the West Wall, but also on other military infrastructure projects such as air bases in Mannheim and in Mainz.",
+        {
+            "entities": [
+                [
+                    24,
+                    31,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "On July 1, 1940, the camp was placed under the jurisdiction of the Inspector of Concentration Camps. After the invasion of Belgium, the Netherlands, Luxembourg and France in 1940, Hinzert also became a prison camp for political prisoners from those countries who needed to be \"re-germanised\" or who were placed under \"Schutzhaft\". On February 7, 1942, command over the camp was transferred to the SS Central Office for Economics and Administration . It also then became a camp for the Gestapo of the Luxembourg and Trier area. Until the first Night and Fog prisoners arrived, the camp operated following the organisational structure of other camps, and namely contained a Kommandantur, a Politische Abteilung or political section, a \"detention and security\" camp, a medical unit and the guard units. Following the arrival of Night and Fog prisoners, the political section and \"detention and security\" camp were closed down.",
+        {
+            "entities": [
+                [
+                    180,
+                    187,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hinzert remained mainly autonomous until November 21, 1944, when it was administratively linked to the Buchenwald concentration camp. The camp was partially destroyed by an air raid on February 22, 1945, but remained in operation until March 3 of the same year when many of the surviving prisoners were sent on a death march to upper Hessen, others having been transferred to the Buchenwald concentration camp. The camp was discovered March 17, 1945 by reconnaissance units of the 94th Infantry Division. Only a handful of prisoners were still in the camp at that time.",
+        {
+            "entities": [
+                [
+                    0,
+                    7,
+                    "CONC_CAMP"
+                ],
+                [
+                    103,
+                    113,
+                    "CONC_CAMP"
+                ],
+                [
+                    380,
+                    390,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Camp commanders On October 9, 1939, SS Standartenf\u00fchrer Hermann Pister assumed command over the camp, a position he held until December 1941 when he took over the command of the Buchenwald concentration camp and was replaced by SS Hauptsturmf\u00fchrer Egon Zill. Zill, who had previously served in the Dachau, Buchenwald and Ravensbr\u00fcck concentration camps, was transferred to the Natzweiler concentration camp in Alsace in April 1942 as the camp's Deputy Commandant. He was replaced by the third and last commander of Hinzert, SS Hauptsturmf\u00fchrer Paul Sporrenberg.",
+        {
+            "entities": [
+                [
+                    178,
+                    188,
+                    "CONC_CAMP"
+                ],
+                [
+                    298,
+                    304,
+                    "CONC_CAMP"
+                ],
+                [
+                    306,
+                    316,
+                    "CONC_CAMP"
+                ],
+                [
+                    321,
+                    332,
+                    "CONC_CAMP"
+                ],
+                [
+                    515,
+                    522,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Camp prisoners Approximately 13,600 prisoners transited through Hinzert. The first prisoners were German workers who had worked on the Siegfried Line and had demonstrated \"anti-social behavior\". Shortly afterwards, the camp was used to host forced laborers from occupied countries. Beginning in 1941, large groups of prisoners were sent to Hinzert, mainly political prisoners from Luxembourg and France. Other prisoners, mainly forced laborers and POWs, were sent from Poland and the Soviet Union. Starting on December 7, 1941, when the Night and Fog directive was signed, NN prisoners transited through Hinzert on the way to larger concentration camps, such as Natzweiler, Dachau or Buchenwald where they would eventually \"disappear\".",
+        {
+            "entities": [
+                [
+                    64,
+                    71,
+                    "CONC_CAMP"
+                ],
+                [
+                    340,
+                    347,
+                    "CONC_CAMP"
+                ],
+                [
+                    604,
+                    611,
+                    "CONC_CAMP"
+                ],
+                [
+                    674,
+                    680,
+                    "CONC_CAMP"
+                ],
+                [
+                    684,
+                    694,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hinzert commemorative plaque of the Night and Fog victims. Many Hinzert prisoners were also used as slave labourers in SS subcamps spread out in the surrounding region. Some 23 Kommandos were attached to Hinzert including: Farschweiler, Finthen, Fluwig, Gelnhausen, Gusterath, Hermeskeil, Konz, Langendiebach, Mainz, Mariahute , Neubrucke, Hoppstaden, Nahe, Nonnweiler, Pollert, Primstal, Rheinsfeld , Wachtersbach and Waechtersbach. These Kommandos performed mainly maintenance forced-labour in air bases as well as marsh drainage and forestry work.",
+        {
+            "entities": [
+                [
+                    0,
+                    7,
+                    "CONC_CAMP"
+                ],
+                [
+                    64,
+                    71,
+                    "CONC_CAMP"
+                ],
+                [
+                    204,
+                    211,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "A catafalque bearing the names of those killed at KZ Hinzert has been erected on the site of the former concentration camp Prisoners of the Hinzert concentration camp were kept under very harsh conditions; beatings were delivered on a regular basis and torture and execution sessions took place in public in order to establish a climate of constant terror and fear.",
+        {
+            "entities": [
+                [
+                    53,
+                    60,
+                    "CONC_CAMP"
+                ],
+                [
+                    140,
+                    147,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Although the majority of the Hinzert prisoners were transferred to other camps or were kept imprisoned until their liberation, many were tortured and murdered at Hinzert. Despite its being \"only\" a transit camp, 321 prisoners were killed at Hinzert. The victims were often shot, drowned or killed by lethal injection. According to trial records, SS guards also tortured prisoners, left them to die of sickness or hunger, or fed them to dogs.",
+        {
+            "entities": [
+                [
+                    29,
+                    36,
+                    "CONC_CAMP"
+                ],
+                [
+                    162,
+                    169,
+                    "CONC_CAMP"
+                ],
+                [
+                    241,
+                    248,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Murder operations In 1941, two trucks transported 70 Soviet POWs to Hinzert. The prisoners were told that they would undergo a medical examination, but were injected with potassium cyanide, a deadly poison, and died shortly thereafter. They were buried in the neighboring forest.",
+        {
+            "entities": [
+                [
+                    68,
+                    75,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Hinzert Cross at the Notre-Dame Cemetery in Luxembourg City. The sculpture Le prisonnier politique is by Luxembourgish artist Lucien Wercollier. In the subsequent years, over 350 Luxembourgish resistance fighters were arrested by the Gestapo; 50 resistants were sentenced to death. Of these 50 sentences, 25 were carried out. However, of the remaining 25, 23 were subsequently executed as a response to acts of resistance in Luxembourg.",
+        {
+            "entities": [
+                [
+                    4,
+                    11,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "The exact number of victims murdered at Hinzert remains unknown. Between 1,600 and 1,800 Luxembourgers had been sent to Hinzert. The Luxembourg Conseil National de la Resistance has confirmed 321 deaths, including 82 Luxembourgers, but not all remains of murdered victims have been found. In 1946, following the liberation of the camp by the Allies, the remains of many of the aforementioned victims were found and transferred to their respective homelands with full national honors. Those not repatriated were buried on site in a memorial cemetery.",
+        {
+            "entities": [
+                [
+                    40,
+                    47,
+                    "CONC_CAMP"
+                ],
+                [
+                    120,
+                    127,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "The French Fondation pour la M\u00e9moire de la D\u00e9portation also estimates that approximately 1,500 Night and Fog prisoners were sent to Hinzert; 390 survived and returned to France and at least 804 died.",
+        {
+            "entities": [
+                [
+                    132,
+                    139,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Bronze monument by Lucien Wercollier at the Hinzert Concentration Camp. A bronze monument by the Luxembourgish sculptor Lucien Wercollier honors the prisoners and those murdered at the camp.",
+        {
+            "entities": [
+                [
+                    44,
+                    51,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Kaiserwald concentration camp From Wikipedia, the free encyclopedia Jump to navigationJump to search \"Kaiserwald\" redirects here. For other uses, see Kaiserwald .",
+        {
+            "entities": [
+                [
+                    0,
+                    10,
+                    "CONC_CAMP"
+                ],
+                [
+                    102,
+                    112,
+                    "CONC_CAMP"
+                ],
+                [
+                    150,
+                    160,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Kaiserwald Concentration camp Kaiserwald concentration camp.jpg Image of the camp after 1945 Other names\t\u0136eizarme\u017es Operated by\tNazi Germany Commandant\tAlbert Sauer Operational\tMarch 1943-15 October 1944 Number of inmates\t11,878, almost all Jews Liberated by\tRed Army Kaiserwald  was a Nazi concentration camp near the Riga suburb of Me\u017eaparks in modern-day Latvia.",
+        {
+            "entities": [
+                [
+                    0,
+                    10,
+                    "CONC_CAMP"
+                ],
+                [
+                    30,
+                    40,
+                    "CONC_CAMP"
+                ],
+                [
+                    268,
+                    278,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Kaiserwald was built in March 1943, during the period that the German army occupied Latvia. The first inmates of the camp were several hundred convicts from Germany.",
+        {
+            "entities": [
+                [
+                    0,
+                    10,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Following the liquidation of the Riga, Liep\u0101ja and Daugavpils  ghettos in June 1943, the remainder of the Jews of Latvia, along with most of the survivors of the liquidation of the Vilna Ghetto, were deported to Kaiserwald.",
+        {
+            "entities": [
+                [
+                    212,
+                    222,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "In early 1944, a number of smaller camps around Riga were brought under the jurisdiction of the Kaiserwald camp.",
+        {
+            "entities": [
+                [
+                    96,
+                    106,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Following the occupation of Hungary by the Germans, Hungarian Jews were sent to Kaiserwald, as were a number of Jews from \u0141\u00f3d\u017a, in Poland. By March 1944, there were 11,878 inmates in the camp and its subsidiaries, 6,182 males and 5,696 females, of whom only 95 were gentiles.",
+        {
+            "entities": [
+                [
+                    80,
+                    90,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Use of the inmates Unlike Auschwitz or Treblinka, Kaiserwald was not an extermination camp, and the inmates were put to work by large German companies, notably Allgemeine Elektrizit\u00e4ts-Gesellschaft, which used a large number of female slaves from Kaiserwald in the production of electrical goods, such as batteries.",
+        {
+            "entities": [
+                [
+                    26,
+                    35,
+                    "CONC_CAMP"
+                ],
+                [
+                    50,
+                    60,
+                    "CONC_CAMP"
+                ],
+                [
+                    247,
+                    257,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Evacuation On 5 August 1944, as the Red Army advanced westwards and entered Latvia, the Germans began to evacuate the inmates of Kaiserwald to Stutthof, in Poland. All Jews under 18 or over 30 were murdered along with anyone who had been convicted of any offence or anyone who it was thought would be unable to survive the trip from Latvia to Poland. The remaining inmates who did not die during the journey arrived at Stutthof in September 1944.",
+        {
+            "entities": [
+                [
+                    129,
+                    139,
+                    "CONC_CAMP"
+                ],
+                [
+                    143,
+                    151,
+                    "CONC_CAMP"
+                ],
+                [
+                    419,
+                    427,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Kauen concentration camp From Wikipedia, the free encyclopedia Jump to navigationJump to search Coordinates: 54\u00b054\u203257\u2033N 23\u00b053\u203218\u2033E",
+        {
+            "entities": [
+                [
+                    0,
+                    5,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Commemorative plaque at the Ninth Fort Kauen was a Nazi concentration camp located in the former Kovno Ghetto. It operated from 15 September 1943 to 14 July 1944 and had eight satellite camps located around the city of Kaunas, in modern-day Lithuania. Most prisoners were Jews who had survived the previous years of the Holocaust in Lithuania. The main camp was liberated by the Red Army on 1 August 1944.",
+        {
+            "entities": [
+                [
+                    39,
+                    44,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Krak\u00f3w-P\u0142asz\u00f3w concentration camp From Wikipedia, the free encyclopedia Jump to navigationJump to search Coordinates: 50\u00b001\u203251\u2033N 19\u00b058\u20323\u2033E",
+        {
+            "entities": [
+                [
+                    0,
+                    14,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Krak\u00f3w-P\u0142asz\u00f3w Nazi concentration camp PLASZOW-German concentration camp near Krakow PL.jpg Krak\u00f3w-P\u0142asz\u00f3w in 1942 Other names\tGerman: Konzentrationslager Plaszow Operated by\tNazi Germany Commandant\tAmon G\u00f6th  Arnold B\u00fcscher  Operational\t28 October 1942 \u2013 January 1945 Number of inmates\tMostly Polish Jews Liberated by\tRed Army, 20 January 1945 P\u0142asz\u00f3w ) or Krak\u00f3w-P\u0142asz\u00f3w was a Nazi concentration camp operated by the SS in P\u0142asz\u00f3w, a southern suburb of Krak\u00f3w, in the General Governorate of German-occupied Poland. Most of the prisoners were Polish Jews who were targeted for destruction by Nazi Germany during the Holocaust. Many prisoners died because of executions, forced labor, and the poor conditions in the camp. The camp was evacuated in January 1945, before the Red Army's liberation of the area on 20 January.",
+        {
+            "entities": [
+                [
+                    0,
+                    14,
+                    "CONC_CAMP"
+                ],
+                [
+                    92,
+                    106,
+                    "CONC_CAMP"
+                ],
+                [
+                    358,
+                    372,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Camp operation Structure and function The Krak\u00f3w-P\u0142asz\u00f3w concentration camp was divided into multiple sections. There was a separate area for camp personnel, work facilities, male prisoners, female prisoners, and a further subdivision between Jews and non-Jews. Although separated, men and women still managed to have contact with one another. There was also a private barracks for the camp's Jewish police and their families. While the primary function of the camp was forced labor, the camp was also the site of mass murder of inmates as well as prisoners brought in from the outside. The main targets were the elderly and the sick. There were no gas chambers or crematoria, so mass murder was carried out by shootings.",
+        {
+            "entities": [
+                [
+                    42,
+                    56,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Personnel Under Arnold B\u00fcscher, the camp's second commandant, prisoners did not experience any shootings or hangings. However, by 1943, the camp was notorious for its terrors. Amon G\u00f6th, an SS commandant from Vienna, was the camp commandant at this point. He was sadistic in his treatment and killing of prisoners. \"Witnesses say he would never start his breakfast without shooting at least one person.\" On G\u00f6th's first day as camp commandant, he killed two Jewish policemen and made every camp inmate watch. On 13 March 1943, he oversaw the liquidation of the nearby Krak\u00f3w Ghetto, forcing those Jewish inhabitants deemed capable of work into the KL Plaszow camp. Those who were declared unfit for work were either sent to Auschwitz or shot on the spot. People were told to leave their children behind and that they would be cared for. In reality, they were all put in an orphanage and killed. Others snuck their children into the camp. If a prisoner tried to escape the camp, G\u00f6th shot 10 prisoners as a punishment. G\u00f6th would also release his Great Danes on prisoners if he did not like their expressions. He oversaw a staff that was mostly non-German. It consisted of 206 Ukrainian SS personnel from the Trawniki, 600 Germans of the SS-Totenkopfverb\u00e4nde , and a few SS women, including Gertrud Heise, Luise Danz and Alice Orlowski.",
+        {
+            "entities": [
+                [
+                    724,
+                    733,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "When G\u00f6th received notice of a new shipment of inmates, he would set up deportations for Auschwitz. On May 14, 1944, G\u00f6th ordered all children to be sent to the \"kindergarten\". This turned out only to be a precursor to deportation to Auschwitz on May 15 where the children were all gassed.",
+        {
+            "entities": [
+                [
+                    89,
+                    98,
+                    "CONC_CAMP"
+                ],
+                [
+                    234,
+                    243,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hope for the prisoners While prisoners' daily lives were dominated by fear and starvation, there were some outlets for hope of survival. Rumors involving the Russian advancement that would lead to the camp's liberation always circulated. Oskar Schindler, a member of the Nazi Party that saved the 1,200 Schindlerjuden was also a key figure. While prisoners always feared a transport to Auschwitz, one that was always sought after was a transport to Br\u00fcnnlitz labor camp in Czechoslovakia. This is where Oskar Schindler's enamel factory was located. Schindler was known for being compassionate towards Jews. He never hit anyone, was always kind, and smiled frequently around the workers. Having relatives and friends that worked for Schindler gave one a better chance at being put on the list for transport.",
+        {
+            "entities": [
+                [
+                    386,
+                    395,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hiding the evidence During July and August 1944, a number of transports of prisoners left KL P\u0142aszow for Auschwitz, Stutthof, Flossenburg, Mauthausen, and other camps. In January 1945, the last of the remaining inmates and camp staff left the camp on a death march to Auschwitz. Several female SS guards were part of the group that accompanied them. Many of those who survived the march were killed upon arrival. When the Nazis realized the Soviets were approaching Krak\u00f3w, they completely dismantled the camp, leaving only an empty field. All bodies that had been previously buried in various mass graves were exhumed and burned on site. On 20 January 1945, the Red Army arrived and found only a patch of barren land.",
+        {
+            "entities": [
+                [
+                    105,
+                    114,
+                    "CONC_CAMP"
+                ],
+                [
+                    116,
+                    124,
+                    "CONC_CAMP"
+                ],
+                [
+                    139,
+                    149,
+                    "CONC_CAMP"
+                ],
+                [
+                    268,
+                    277,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ],
+    [
+        "Aftermath Most numbers of inmates and killings rely on estimation, as the prisoner card index was destroyed during the camp's destruction. Few postwar trials centered on crimes committed at the Krak\u00f3w-P\u0142asz\u00f3w concentration camp; one exception was G\u00f6th's trial and subsequent death sentence. West German prosecutors took until the late 1950s to investigate these crimes.",
+        {
+            "entities": [
+                [
+                    194,
+                    208,
+                    "CONC_CAMP"
+                ]
+            ]
+        }
+    ]
+]
