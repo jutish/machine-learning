@@ -10,8 +10,8 @@ from pulp import *
 
 # Read Excel and split into 2 data frames. Orders and Stock
 sheets = {'stock':'Stock 11-06', 'orders':'Ordenes de Venta 11-06'}
-# path = 'Datos para pasar a IA - 2 ordenes.xlsx'
-path = 'Datos para pasar a IA.xlsx'
+path = 'Datos para pasar a IA - 2 ordenes.xlsx'
+# path = 'Datos para pasar a IA.xlsx'
 orders = pd.read_excel(path, sheet_name=sheets['orders'])
 stock = pd.read_excel(path, sheet_name=sheets['stock'])
 
@@ -61,6 +61,10 @@ orders_stock.to_csv('orders_stock.csv', sep=';')
 #************** Model Definition using PuLP ****************
 #***********************************************************
 
+solver_list = listSolvers(onlyAvailable=True)
+print(solver_list)
+
+
 # # Create LpVariables
 # # Each variable is defined as order_id-article_id-lot_unique
 # # The values of variables are between 0 and Infinite and they are Integer
@@ -76,9 +80,9 @@ lp_variables = LpVariable.dicts('OrderArticleLot', variables, 0, None, LpInteger
 #         'Total Remain Expiration Days')
 
 # # Objective 2: Maximize the number of articles delivered
-model = LpProblem("AGD_Inventory_Optimization", LpMaximize)
+model = LpProblem("AGD_Inventory_Optimization", LpMaximize, )
 model += (lpSum([lp_variables[i] for i in variables]), 
-    'Total Remain Expiration Days')
+    'Maximize total number of articles delivered')
 
 # Define restrictions
 
@@ -133,7 +137,8 @@ for name, group in grouped:
 model.writeLP("AGD_Inventory_Optimization.lp")
 
 # The problem is solved using PuLP's choice of Solver
-model.solve()
+solver = getSolver('GUROBI')
+model.solve(solver)
 
 # The status of the solution is printed to the screen
 print("Status:", LpStatus[model.status])

@@ -49,36 +49,36 @@ from sklearn.model_selection import cross_val_score
 # Validate against ruddit_comments_score ############
 #####################################################
 
-df = pd.read_csv('./data/validation_data_scored.csv')
-validation_df = pd.read_csv('./data/ruddit_comments_score.csv')
+# df = pd.read_csv('./data/validation_data_scored.csv')
+# validation_df = pd.read_csv('./data/ruddit_comments_score.csv')
 
 # Get or load a vectorized version of training_df
-nlp = spacy.load('en_core_web_lg')
-if os.path.isfile('./data/validation_scored_vectors.npy'):
-    df_vectors = np.load('./data/validation_scored_vectors.npy')
-    print('Validation scored vectorized loaded! Shape: ', df_vectors.shape)
-else:
-    with nlp.disable_pipes():
-        df_vectors = np.array([nlp(text).vector for text in df.comment])
-        np.save('./data/validation_scored_vectors.npy', df_vectors)
-        print('Validation scored vectorized saved! Shape: ', df_vectors.shape)
+# nlp = spacy.load('en_core_web_lg')
+# if os.path.isfile('./data/validation_scored_vectors.npy'):
+#     df_vectors = np.load('./data/validation_scored_vectors.npy')
+#     print('Validation scored vectorized loaded! Shape: ', df_vectors.shape)
+# else:
+#     with nlp.disable_pipes():
+#         df_vectors = np.array([nlp(text).vector for text in df.comment])
+#         np.save('./data/validation_scored_vectors.npy', df_vectors)
+#         print('Validation scored vectorized saved! Shape: ', df_vectors.shape)
 
-# Split our dataset based on Ruddits dataset vectorized
-X_train, X_test, y_train, y_test = train_test_split(df_vectors, df.score,
-                                                    test_size=0.1,
-                                                    random_state=1)
+# # Split our dataset based on Ruddits dataset vectorized
+# X_train, X_test, y_train, y_test = train_test_split(df_vectors, df.score,
+#                                                     test_size=0.1,
+#                                                     random_state=1)
 
-# # Using XGBoost
-my_model = XGBRegressor(random_state=0, n_estimators=500)
-my_model.fit(X_train, y_train)
-predictions = my_model.predict(X_test)
-mae = mean_absolute_error(predictions, y_test)
-print('Mean Absolute Error: ', mae)
+# # # Using XGBoost
+# my_model = XGBRegressor(random_state=0, n_estimators=500)
+# my_model.fit(X_train, y_train)
+# predictions = my_model.predict(X_test)
+# mae = mean_absolute_error(predictions, y_test)
+# print('Mean Absolute Error: ', mae)
 
-# Using cross_val_score
-baseline = RandomForestRegressor(criterion='mae', random_state=8)
-baseline_score = cross_val_score(baseline, df_vectors, df.score, cv=5, scoring='neg_mean_absolute_error')
-print(-1 * baseline_score.mean())
+# # Using cross_val_score
+# baseline = RandomForestRegressor(criterion='mae', random_state=8)
+# baseline_score = cross_val_score(baseline, df_vectors, df.score, cv=5, scoring='neg_mean_absolute_error')
+# print(-1 * baseline_score.mean())
 
 #
 # Train a model based on validation_data_scored + ruddit_comments_score

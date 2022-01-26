@@ -54,18 +54,18 @@ count_vectorizer = CountVectorizer(stop_words='english')
 count_train = count_vectorizer.fit_transform(X_train)
 count_test = count_vectorizer.transform(X_test)
 
-# Now that you have vectors, you can then take a look at the vector features,
-# stored in count_vectorizer and tfidf_vectorizer.
-print(tfidf_vectorizer.get_feature_names())
-print(count_vectorizer.get_feature_names())
+# # Now that you have vectors, you can then take a look at the vector features,
+# # stored in count_vectorizer and tfidf_vectorizer.
+# print(tfidf_vectorizer.get_feature_names())
+# print(count_vectorizer.get_feature_names())
 
-# Comparing Models
+# # Comparing Models
 count_df = pd.DataFrame(count_train.A, columns=count_vectorizer.get_feature_names())
 tfidf_df = pd.DataFrame(tfidf_train.A, columns=tfidf_vectorizer.get_feature_names())
 print(count_df.head())
 print(tfidf_df.head())
 
-# Use a NLP model MultinomialNB on tfidf_vectorizer
+# # Use a NLP model MultinomialNB on tfidf_vectorizer
 clf = MultinomialNB()
 clf.fit(tfidf_train, y_train)
 pred = clf.predict(tfidf_test)
@@ -83,15 +83,15 @@ cm = confusion_matrix(y_test, pred, labels=['REAL','FAKE'])
 print('MultinomialNB Accuracy Score on CountVectorizer: %0.3f' % score)
 print('MultinomialNB Confussion matrix on CountVectorizer: \n', cm)
 
-# What is a PassiveAggressiveClassifier?
-# Passive Aggressive algorithms are online learning algorithms. Such an
-# algorithm remains passive for a correct classification outcome, and turns
-# aggressive in the event of a miscalculation, updating and adjusting. Unlike
-# most other algorithms, it does not converge. Its purpose is to make updates
-# that correct the loss, causing very little change in the norm of the weight
-# vector.
+# # What is a PassiveAggressiveClassifier?
+# # Passive Aggressive algorithms are online learning algorithms. Such an
+# # algorithm remains passive for a correct classification outcome, and turns
+# # aggressive in the event of a miscalculation, updating and adjusting. Unlike
+# # most other algorithms, it does not converge. Its purpose is to make updates
+# # that correct the loss, causing very little change in the norm of the weight
+# # vector.
 
-# Testing Linear Models - Passive Aggresive Classifier - on tfidf_vectorizer
+# # Testing Linear Models - Passive Aggresive Classifier - on tfidf_vectorizer
 linear_clf = PassiveAggressiveClassifier()
 linear_clf.fit(tfidf_train, y_train)
 pred = linear_clf.predict(tfidf_test)
@@ -100,7 +100,7 @@ cm = confusion_matrix(y_test, pred, labels=['FAKE', 'REAL'])
 print("Passive Aggresive Classifier - on tfidf_vectorizer: %0.3f" % score)
 print('Passive Aggresive Classifier Confussion matrix on tfidf_vectorizer: \n', cm)
 
-# Testing Linear Models - Passive Aggresive Classifier - on count_vectorizer
+# # Testing Linear Models - Passive Aggresive Classifier - on count_vectorizer
 linear_clf = PassiveAggressiveClassifier()
 linear_clf.fit(count_train, y_train)
 pred = linear_clf.predict(count_test)
