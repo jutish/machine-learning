@@ -36,7 +36,7 @@ else:
     df = pd.DataFrame(data).T
     # Write comments and their score in a *.csv for future analysis
     df.index.name = 'comment_id'
-    df.to_csv('ruddit_comments_score.csv')
+    df.to_csv('./data/ruddit_comments_score.csv')
     print('Ruddit comments score saved! Shape: ', df.shape)
 
 # Remove [deleted] comments
@@ -89,6 +89,6 @@ def model_predict(validation_data):
     return result.value.mean()
 
 
-# val_data_test = validation_data.iloc[:]
-# mean_score = model_predict(val_data_test)
-# print(mean_score)
+val_data_test = validation_data.iloc[:]
+mean_score = model_predict(val_data_test)
+print(mean_score)

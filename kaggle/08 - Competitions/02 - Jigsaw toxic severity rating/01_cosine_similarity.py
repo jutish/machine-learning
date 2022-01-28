@@ -5,9 +5,9 @@ import praw
 import os
 
 # Load or make a ruddit comments score
-if os.path.isfile('ruddit_comments_score.csv'):
+if os.path.isfile('./data/ruddit_comments_score.csv'):
     # Load dataset if exists
-    df = pd.read_csv('ruddit_comments_score.csv', index_col='comment_id')
+    df = pd.read_csv('./data/ruddit_comments_score.csv', index_col='comment_id')
     print('Ruddit comments score loaded! Shape: ', df.shape)
 else:
     # Download Ruddit dataset from Reddit using Praw
@@ -48,17 +48,17 @@ df = df[df.body != '[deleted]']
 # score our text.
 # Get or load a vectorize version of Ruddit DataFrame
 nlp = spacy.load('en_core_web_lg')
-if os.path.isfile('df_vectors.npy'):
-    df_vectors = np.load('df_vectors.npy')
+if os.path.isfile('./data/df_vectors.npy'):
+    df_vectors = np.load('./data/df_vectors.npy')
     print('Ruddit comments vectorized loaded! Shape: ', df_vectors.shape)
 else:
     with nlp.disable_pipes():
         df_vectors = np.array([nlp(text).vector for text in df.body])
-        np.save('df_vectors', df_vectors)
+        np.save('./data/df_vectors', df_vectors)
         print('Ruddit comments vectorized saved! Shape: ', df_vectors.shape)
 
 # Load validation data
-validation_data = pd.read_csv('validation_data.csv')
+validation_data = pd.read_csv('./data/validation_data.csv')
 
 
 # Find the most similar comment to our text.
@@ -94,14 +94,16 @@ def predict(validation_data):
     result['value'] = result['less_toxic'] < result['more_toxic']
     return result.value.mean()
 
+mean_score = predict(validation_data)
+print(mean_score)
 
-# Load comments to score
-c2s = pd.read_csv('comments_to_score.csv')
-# Score and make a submission file
-output = pd.DataFrame([{'comment_id': cm.comment_id, 'score': score(cm.text)}
-                      for _, cm in c2s.iterrows()])
-output.to_csv('submission.csv', index=False)
-scores = pd.read_csv('submission.csv', index_col='comment_id')
-comments = pd.read_csv('comments_to_score.csv', index_col='comment_id')
-comments_score = scores.join(comments)
-comments_score.to_csv('comments_score.csv', sep=';')
+# # Load comments to score
+# c2s = pd.read_csv('comments_to_score.csv')
+# # Score and make a submission file
+# output = pd.DataFrame([{'comment_id': cm.comment_id, 'score': score(cm.text)}
+#                       for _, cm in c2s.iterrows()])
+# output.to_csv('submission.csv', index=False)
+# scores = pd.read_csv('submission.csv', index_col='comment_id')
+# comments = pd.read_csv('comments_to_score.csv', index_col='comment_id')
+# comments_score = scores.join(comments)
+# comments_score.to_csv('comments_score.csv', sep=';')
