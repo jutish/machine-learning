@@ -1,0 +1,260 @@
+Cluster 0
+killed
+people
+people killed
+attack
+injured
+members
+amnesty
+attacks
+shot
+granted
+
+
+Cluster 1
+anc
+ifp
+death
+supporters
+stabbed
+supporter
+ifp supporters
+anc supporter
+anc supporters
+natal
+
+
+Cluster 2
+amnesty
+granted
+granted amnesty
+injured
+perpetrators
+anc
+member
+members
+killed
+transvaal
+
+
+Cluster 3
+burnt
+house
+supporter house
+burnt ifp supporters
+burnt ifp
+ifp
+ifp supporters
+supporters
+anc
+house burnt
+
+
+Cluster 4
+members sap
+sap
+members
+tortured
+police
+detained
+cape
+shot
+assaulted
+transvaal
+
+
+Cluster 5
+near durban
+kwazulu near durban
+durban
+kwazulu
+kwazulu near
+near
+supporters
+ifp
+anc
+supporter
+
+
+Cluster 6
+natal
+ifp
+empangeni
+empangeni natal
+supporters
+anc
+conflict
+kwazulu
+kwazulu near
+anc supporters
+
+
+Cluster 7
+sonkombo
+ndwedwe
+ndwedwe kwazulu near
+ndwedwe kwazulu
+kwazulu near durban
+arson
+attacks
+near durban
+burnt ifp supporters
+burnt ifp
+
+
+Cluster 8
+chief
+home
+burnt
+home burnt
+supporters
+mr
+lost
+allegedly
+attack
+residents
+
+
+Cluster 9
+kwamashu
+kwamashu durban
+durban
+near
+conflict
+supporters
+burnt
+political
+political conflict
+anc
+
+
+Cluster 10
+shot dead
+dead
+shot
+members
+sap
+members sap
+transvaal
+member
+police
+cape
+
+
+Cluster 11
+beaten
+severely beaten
+severely
+members
+sap
+police
+members sap
+cape
+supporter
+named
+
+
+Cluster 12
+conflict area
+political conflict area
+political conflict
+political
+area
+conflict
+supporters
+natal
+near
+ongoing
+
+
+Cluster 13
+shot injured
+injured
+shot
+members
+sap
+members sap
+cape
+police
+member
+transvaal
+
+
+Cluster 14
+bophuthatswana
+police
+members
+beaten
+severely
+severely beaten
+arrested
+tvl
+detained
+assaulted
+
+
+Cluster 15
+supporter shot
+anc supporter shot
+supporter shot dead
+anc supporter
+supporter
+shot
+anc
+shot dead
+dead
+ifp
+
+
+Cluster 16
+security branch
+branch
+security
+members
+operatives
+amnesty
+granted
+granted amnesty
+tortured
+detained
+
+
+Cluster 17
+mk
+mk operatives
+operatives
+injured
+amnesty
+granted amnesty
+granted
+killed
+people
+people killed
+
+
+Cluster 18
+inkatha
+inkatha supporters
+udf
+supporters
+supporter
+udf supporter
+near
+kwazulu
+durban
+kwazulu near
+
+
+Cluster 19
+detained
+cape
+police
+member
+tortured
+town
+arrested
+members
+mr
+assaulted
+
+

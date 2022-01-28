@@ -36,7 +36,7 @@ plt.rc('axes',
 
 
 # Load the data from CSV files 
-# Clean the data to fix any errors orinconsistencies 
+# Clean the data to fix any errors or inconsistencies 
 # Encode the statistical data type (numeric, categorical)
 # Impute any missing values 
 def load_data(preprop=True):
