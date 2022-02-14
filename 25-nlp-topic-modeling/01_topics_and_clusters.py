@@ -39,7 +39,7 @@ def write_data(file, data):
         json.dump(data, f, indent=4)
 
 # Load data
-names = load_data('./data/trc_dn.json')['names'][1]
+names = load_data('./data/trc_dn.json')['names']
 descriptions = load_data('./data/trc_dn.json')['descriptions']
 
 
@@ -105,11 +105,12 @@ print(descriptions[0:1])
 print(all_keywords[0:1])
 
 # Cluster using K-Means
-true_k = 20 # Number of clusters to get
+true_k = 5 # Number of clusters to get
 model = KMeans(n_clusters=true_k, init='k-means++', max_iter=100,
     n_init=1)
 model.fit(vectors)
 centroids = model.cluster_centers_
+
 order_centroids = model.cluster_centers_.argsort()[:, ::-1]  # returns the index ordered in DESC mode.
 terms = vectorizer.get_feature_names_out()
 
@@ -129,7 +130,7 @@ with open('./data/trc_results.txt', 'w', encoding='utf-8') as f:
 import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 
-# Get the cluster for each row return an ndarray
+# Get the cluster for each row return a ndarray
 kmeans_indices = model.fit_predict(vectors)
 
 # Reduce dimension of tf-idf vectors and plot it
@@ -138,8 +139,8 @@ scatter_plot_points = pca.fit_transform(vectors.toarray())
 colors = ['r','b','c','y','m']  # We have one color per cluster
 x_axis = [reduced_row[0] for reduced_row in scatter_plot_points]
 y_axis = [reduced_row[1] for reduced_row in scatter_plot_points]
-fig, ax = plt.subplots(50,50)
+fig, ax = plt.subplots(figsize=(50,50))
 ax.scatter(x_axis, y_axis, c=[colors[i] for i in kmeans_indices])
 for i, name in enumerate(names):
-    ax.annotate(txt[0:5], (x_axis[i], y_axis[i]))
+    ax.annotate(name[0:5], (x_axis[i], y_axis[i]))
 plt.savefig('trc.png')

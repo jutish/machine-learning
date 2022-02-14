@@ -48,11 +48,12 @@ print('Ruddit Scored Loaded: ', ruddit_scored.shape)
 # https://www.pinecone.io/learn/dense-vector-embeddings-nlp/
 # pip install sentence-transformers
 
-from sentence_transformers import SentenceTransformer
-st = SentenceTransformer('all-mpnet-base-v2')
-X_st = st.encode(ruddit_scored.body, convert_to_numpy=True, show_progress_bar=True)
-np.save('./data/ruddit_scored_body_s2v', X_st)
-print(X_st.shape)
+# from sentence_transformers import SentenceTransformer
+# st = SentenceTransformer('all-mpnet-base-v2')
+# X_st = st.encode(ruddit_scored.body, convert_to_numpy=True, show_progress_bar=True)
+# np.save('./data/ruddit_scored_body_s2v', X_st)
+# print(X_st.shape)
+X_st = np.load('./data/ruddit_scored_body_s2v')
 
 # # # Split our data
 # y = ruddit_scored.pop('score')
