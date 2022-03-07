@@ -3,15 +3,18 @@ AGD Inventory Optimization
 Author: Esteban Marcelloni, 10th Oct. 2021
 """
 
+import psutil as ps
 import pandas as pd
 import numpy as np
 from datetime import date
 from pulp import *
 
+p = ps.Process()
+
 # Read Excel and split into 2 data frames. Orders and Stock
 sheets = {'stock':'Stock 11-06', 'orders':'Ordenes de Venta 11-06'}
-path = 'Datos para pasar a IA - 2 ordenes.xlsx'
-# path = 'Datos para pasar a IA.xlsx'
+# path = 'Datos para pasar a IA - 2 ordenes.xlsx'
+path = 'Datos para pasar a IA.xlsx'
 orders = pd.read_excel(path, sheet_name=sheets['orders'])
 stock = pd.read_excel(path, sheet_name=sheets['stock'])
 
@@ -137,8 +140,8 @@ for name, group in grouped:
 model.writeLP("AGD_Inventory_Optimization.lp")
 
 # The problem is solved using PuLP's choice of Solver
-solver = getSolver('GUROBI')
-model.solve(solver)
+# solver = getSolver('GUROBI')
+model.solve()
 
 # The status of the solution is printed to the screen
 print("Status:", LpStatus[model.status])
@@ -187,4 +190,7 @@ sol.drop(columns=['order_type','total_order_qty','article_id_y','article_y',
 sol.set_index(['order_id','article_id_x'], drop=True, inplace=True)
 
 # Write Excel
-sol.to_excel('AGD_Inventory_Optimization.xls')
+sol.to_excel('AGD_Inventory_Optimization.xlsx')
+
+info = p.as_dict(attrs=['pid','name','username','memory_info','memory_percent','cpu_times'])
+print(info)
